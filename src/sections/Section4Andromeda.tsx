@@ -17,11 +17,11 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16"
         >
-          A META MUDOU AS REGRAS DO JOGO...
+          A Meta Mudou As Regras Do Jogo...
           <br />
-          <span className="text-[#B8860B]">E VOCÊ NÃO FOI AVISADO.</span>
+          <span className="text-[#B8860B]">E Você Não Foi Avisado.</span>
         </motion.h2>
 
         {/* Parágrafos introdutórios */}
@@ -50,10 +50,10 @@ const Section4Andromeda = () => {
           className="bg-gradient-to-br from-[#191919] to-[#1a1410] border-2 border-[#B8860B] rounded-xl p-12 md:p-16 max-w-4xl mx-auto mb-16 glow-gold-strong"
         >
           <p className="text-3xl md:text-4xl font-black text-[#B8860B] mb-6">
-            🤖 EM NOVEMBRO DE 2024, A META LANÇOU O ANDROMEDA.
+            🤖 Em Novembro De 2024, A Meta Lançou O Andromeda.
           </p>
           <p className="text-2xl md:text-3xl font-bold mb-10">
-            E com ele, TUDO mudou.
+            E com ele, Tudo mudou.
           </p>
 
           <div className="space-y-6 text-xl leading-relaxed mb-8">
@@ -62,7 +62,7 @@ const Section4Andromeda = () => {
               100% da distribuição dos seus anúncios na Meta.
             </p>
             <p>E sabe qual é a grande sacada?</p>
-            <p className="font-semibold">O algoritmo agora decide SOZINHO:</p>
+            <p className="font-semibold">O algoritmo agora decide Sozinho:</p>
           </div>
 
           {/* Lista com checkmarks */}
@@ -105,7 +105,7 @@ const Section4Andromeda = () => {
           <p>E sabe o que isso significa na prática?</p>
           <p className="mt-6">
             Significa que 80% do resultado das suas campanhas
-            <br />agora vem de UMA COISA:
+            <br />agora vem de Uma Coisa:
           </p>
         </motion.div>
 
@@ -118,14 +118,14 @@ const Section4Andromeda = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-8">
-            👉 DOS SEUS ANÚNCIOS.
+            👉 Dos Seus Anúncios.
           </p>
           <div className="space-y-3 text-2xl text-[#F3EFE0]">
             <p>Não da segmentação.</p>
             <p>Não do orçamento.</p>
             <p>Não da estrutura de campanha.</p>
             <p className="mt-8 font-bold text-3xl">
-              DO CRIATIVO. DO ANÚNCIO. DA MENSAGEM.
+              Do Criativo. Do Anúncio. Da Mensagem.
             </p>
           </div>
         </motion.div>

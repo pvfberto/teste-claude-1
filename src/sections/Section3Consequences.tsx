@@ -47,11 +47,11 @@ const Section3Consequences = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-10"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-10"
         >
-          O QUE ACONTECE SE VOCÊ CONTINUAR
+          O Que Acontece Se Você Continuar
           <br />
-          <span className="text-[#B8860B]">FAZENDO DO JEITO QUE ESTÁ FAZENDO?</span>
+          <span className="text-[#B8860B]">Fazendo Do Jeito Que Está Fazendo?</span>
         </motion.h2>
 
         {/* Introdução */}
@@ -97,8 +97,8 @@ const Section3Consequences = () => {
           transition={{ duration: 0.8 }}
           className="bg-[rgba(184,134,11,0.1)] border-2 border-[#B8860B] rounded-lg p-12 md:p-16 max-w-3xl mx-auto text-center"
         >
-          <p className="text-2xl md:text-3xl font-bold uppercase mb-6">
-            MAS AQUI ESTÁ A VERDADE QUE NINGUÉM ESTÁ TE CONTANDO:
+          <p className="text-2xl md:text-3xl font-bold mb-6">
+            Mas Aqui Está A Verdade Que Ninguém Está Te Contando:
           </p>
           <p className="text-3xl md:text-4xl font-black text-[#B8860B]">
             👉 A culpa não é sua.
