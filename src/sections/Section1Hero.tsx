@@ -32,11 +32,11 @@ const Section1Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-wider-xl leading-tight mb-6"
+          className="text-4xl md:text-5xl lg:text-6xl font-black tracking-wider-xl leading-tight mb-6"
         >
-          SEUS ANÚNCIOS ESTAVAM FUNCIONANDO...
+          Seus Anúncios Estavam Funcionando...
           <br />
-          <span className="text-[#B8860B]">ATÉ QUE PARARAM DE FUNCIONAR.</span>
+          <span className="text-[#B8860B]">Até Que Pararam De Funcionar.</span>
         </motion.h1>
 
         {/* Subheadline */}
