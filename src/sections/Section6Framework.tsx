@@ -55,7 +55,7 @@ O SA é o que transforma "interesse" em "ação".`,
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-6xl font-black tracking-wider-2xl text-center mb-10"
         >
-          O Framework EM-SA
+          EM-SA Significa:
         </motion.h2>
 
         {/* Introdução */}
@@ -65,7 +65,6 @@ O SA é o que transforma "interesse" em "ação".`,
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <p className="text-2xl font-semibold mb-8">EM-SA significa:</p>
           <div className="text-3xl font-bold text-[#B8860B] space-y-4">
             <p>E = Estímulo</p>
             <p>M = Mensagem</p>

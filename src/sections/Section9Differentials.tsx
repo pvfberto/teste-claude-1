@@ -3,10 +3,6 @@ import { motion } from 'framer-motion';
 const Section9Differentials = () => {
   const differentials = [
     {
-      title: 'Templates Prontos do Framework EM-SA',
-      description: 'Estruturas de anúncios que você pode adaptar imediatamente para o seu negócio. Não precisa criar do zero.'
-    },
-    {
       title: 'Prompts de IA para Implementação Rápida',
       description: 'Prompts otimizados para ChatGPT, Claude e outras IAs que ajudam você a criar variações de anúncios seguindo o Método EM-SA em minutos (não horas).'
     },
