@@ -5,17 +5,17 @@ const Section11Results = () => {
     {
       scenario: 'Se você investe R$10.000/mês e tem ROAS de 2x',
       result: 'Com melhoria de 30% você passa para 2.6x',
-      impact: 'R$6.000 A Mais Por Mês'
+      impact: 'R$6.000 A Mais Por Mês ou R$72.000 A Mais Por Ano'
     },
     {
-      scenario: 'Se seu CPL está R$50',
-      result: 'Com redução de 30% cai para R$35',
-      impact: '35% Mais Leads com o mesmo budget'
+      scenario: 'Se seu CPL está R$17',
+      result: 'Com redução de 60% cai para R$6,80',
+      impact: '60% Mais Leads com o mesmo budget'
     },
     {
       scenario: 'Se você fatura R$50.000/mês com anúncios',
       result: 'Com melhoria de 30% salta para R$65.000/mês',
-      impact: 'R$15.000 A Mais'
+      impact: 'R$15.000 A Mais Por Mês ou R$180.000 A Mais por Ano'
     }
   ];
 
@@ -103,21 +103,6 @@ const Section11Results = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* Projeção anual */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-[rgba(184,134,11,0.15)] to-[rgba(184,134,11,0.05)] border-2 border-[#B8860B] rounded-xl p-16 max-w-3xl mx-auto text-center"
-        >
-          <p className="text-3xl font-semibold mb-4">EM 12 MESES:</p>
-          <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-2">
-            R$72.000 - R$180.000 A MAIS
-          </p>
-          <p className="text-xl text-[#F3EFE0]">no seu negócio</p>
-        </motion.div>
       </div>
     </section>
   );
