@@ -14,7 +14,7 @@ export const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) =>
           {String(value).padStart(2, '0')}
         </span>
       </div>
-      <span className="text-xs md:text-sm mt-2 text-[#F3EFE0] uppercase tracking-wide">
+      <span className="text-xs md:text-sm mt-2 text-[#F3EFE0] tracking-wide">
         {label}
       </span>
     </div>

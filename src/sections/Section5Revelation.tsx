@@ -16,12 +16,12 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16 leading-tight"
+          className="text-3xl md:text-5xl font-black tracking-wider-xl text-center mb-16 leading-tight"
         >
-          DEPOIS DE 10 ANOS GERENCIANDO R$45 MILHÕES EM TRÁFEGO...
+          Depois De 10 Anos Gerenciando R$45 Milhões Em Tráfego...
           <br />
           <span className="text-[#B8860B]">
-            EU DESCOBRI O MÉTODO DOS ANÚNCIOS INTELIGENTES.
+            Eu Descobri O Método Dos Anúncios Inteligentes.
           </span>
         </motion.h2>
 

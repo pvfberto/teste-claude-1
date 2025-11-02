@@ -38,9 +38,9 @@ const Section13Offer = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase text-[#B8860B] text-center mb-16 animate-pulse-subtle"
+          className="text-4xl md:text-5xl font-black text-[#B8860B] text-center mb-16 animate-pulse-subtle"
         >
-          🔥 OFERTA ESPECIAL BLACK FRIDAY
+          🔥 Oferta Especial Black Friday
         </motion.h2>
 
         {/* Box de Preço */}

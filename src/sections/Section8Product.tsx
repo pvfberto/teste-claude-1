@@ -19,11 +19,11 @@ const Section8Product = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16"
         >
-          COMO VOCÊ APRENDE A APLICAR
+          Como Você Aprende A Aplicar
           <br />
-          <span className="text-[#B8860B]">O MÉTODO DOS ANÚNCIOS INTELIGENTES?</span>
+          <span className="text-[#B8860B]">O Método Dos Anúncios Inteligentes?</span>
         </motion.h2>
 
         {/* Introdução */}
@@ -88,8 +88,8 @@ const Section8Product = () => {
           transition={{ duration: 0.8 }}
           className="bg-gradient-to-br from-[#191919] to-[#1a1410] border-4 border-[#B8860B] rounded-2xl p-12 md:p-20 max-w-5xl mx-auto text-center glow-gold-strong"
         >
-          <h3 className="text-5xl md:text-7xl font-black text-[#B8860B] uppercase tracking-wider-2xl mb-8">
-            TOTAL ADS 360º
+          <h3 className="text-5xl md:text-7xl font-black text-[#B8860B] tracking-wider-2xl mb-8">
+            Total Ads 360º
           </h3>
 
           <p className="text-2xl md:text-3xl mb-10 leading-relaxed">

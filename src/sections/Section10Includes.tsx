@@ -37,9 +37,9 @@ const Section10Includes = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-20"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-20"
         >
-          O QUE ESTÁ INCLUÍDO:
+          O Que Está Incluído:
         </motion.h2>
 
         {/* Lista em grid */}

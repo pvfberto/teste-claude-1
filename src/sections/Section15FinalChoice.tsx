@@ -11,9 +11,9 @@ const Section15FinalChoice = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-20"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-20"
         >
-          DUAS ESCOLHAS:
+          Duas Escolhas:
         </motion.h2>
 
         {/* 2 Cards lado a lado */}

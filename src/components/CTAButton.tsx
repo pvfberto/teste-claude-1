@@ -17,7 +17,7 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
     <motion.button
       onClick={onClick}
       className={`
-        gradient-gold-animated font-black uppercase text-black rounded-lg
+        gradient-gold-animated font-black text-black rounded-lg
         cursor-pointer border-none transition-all duration-500
         hover:scale-105 hover:glow-gold
         ${large

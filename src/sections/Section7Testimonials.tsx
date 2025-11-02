@@ -50,9 +50,9 @@ const Section7Testimonials = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-6"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-6"
         >
-          NÃO ACREDITE APENAS NA MINHA PALAVRA
+          Não Acredite Apenas Na Minha Palavra
         </motion.h2>
 
         {/* Subtítulo */}

@@ -5,17 +5,17 @@ const Section11Results = () => {
     {
       scenario: 'Se você investe R$10.000/mês e tem ROAS de 2x',
       result: 'Com melhoria de 30% você passa para 2.6x',
-      impact: 'R$6.000 A MAIS POR MÊS'
+      impact: 'R$6.000 A Mais Por Mês'
     },
     {
       scenario: 'Se seu CPL está R$50',
       result: 'Com redução de 30% cai para R$35',
-      impact: '35% MAIS LEADS com o mesmo budget'
+      impact: '35% Mais Leads com o mesmo budget'
     },
     {
       scenario: 'Se você fatura R$50.000/mês com anúncios',
       result: 'Com melhoria de 30% salta para R$65.000/mês',
-      impact: 'R$15.000 A MAIS'
+      impact: 'R$15.000 A Mais'
     }
   ];
 

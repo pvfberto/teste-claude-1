@@ -4,22 +4,22 @@ const Section6Framework = () => {
   const pillars = [
     {
       icon: '🎯',
-      title: 'ESTÍMULO',
+      title: 'Estímulo',
       subtitle: 'O que faz parar de scrollar',
-      description: `É o "GANCHO" do anúncio.
+      description: `É o "Gancho" do anúncio.
 
-É o que faz a pessoa PARAR de scrollar e prestar atenção.
+É o que faz a pessoa Parar de scrollar e prestar atenção.
 
 O Estímulo pode ser visual (uma imagem forte, um vídeo impactante) ou textual (uma frase que corta a respiração).`,
       example: `Exemplo: Um gestor de tráfego vê um anúncio que diz: "Seus anúncios estavam funcionando... até que pararam de funcionar."
 
-➡️ Ele para. Porque é EXATAMENTE o que ele está sentindo.`
+➡️ Ele para. Porque é Exatamente o que ele está sentindo.`
     },
     {
       icon: '💬',
-      title: 'MENSAGEM',
+      title: 'Mensagem',
       subtitle: 'O conteúdo que ressoa',
-      description: `É o CONTEÚDO do anúncio.
+      description: `É o Conteúdo do anúncio.
 
 É onde você articula a dor, revela a solução, faz promessas, mostra provas.
 
@@ -29,13 +29,13 @@ Mas aqui está o segredo: a Mensagem precisa variar.`,
         'Outras precisam de emoção e histórias',
         'Outras precisam de prova social e urgência'
       ],
-      footer: 'Um anúncio só não dá conta de tudo isso. Por isso você cria VARIAÇÕES de mensagens dentro do mesmo framework.'
+      footer: 'Um anúncio só não dá conta de tudo isso. Por isso você cria Variações de mensagens dentro do mesmo framework.'
     },
     {
       icon: '🚀',
       title: 'SA',
       subtitle: 'O empurrãozinho final',
-      description: `É o gatilho emocional ou psicológico que faz a pessoa CLICAR AGORA.
+      description: `É o gatilho emocional ou psicológico que faz a pessoa Clicar Agora.
 
 Pode ser urgência, escassez, medo de perder, desejo de pertencimento, prova social, garantia...
 
@@ -53,9 +53,9 @@ O SA é o que transforma "interesse" em "ação".`,
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-6xl font-black uppercase tracking-wider-2xl text-center mb-10"
+          className="text-5xl md:text-6xl font-black tracking-wider-2xl text-center mb-10"
         >
-          O FRAMEWORK EM-SA
+          O Framework EM-SA
         </motion.h2>
 
         {/* Introdução */}
@@ -97,7 +97,7 @@ O SA é o que transforma "interesse" em "ação".`,
               className="bg-[#111111] border border-[rgba(184,134,11,0.3)] rounded-xl p-8 hover:-translate-y-2 hover:shadow-[0_8px_30px_rgba(184,134,11,0.2)] transition-all duration-500"
             >
               <div className="text-6xl mb-6">{pillar.icon}</div>
-              <h3 className="text-3xl font-black uppercase text-[#B8860B] mb-4">
+              <h3 className="text-3xl font-black text-[#B8860B] mb-4">
                 {pillar.title}
               </h3>
               <p className="text-xl font-semibold mb-6">{pillar.subtitle}</p>
@@ -108,7 +108,7 @@ O SA é o que transforma "interesse" em "ação".`,
               {pillar.list && (
                 <div className="space-y-3 text-lg leading-relaxed mb-6">
                   <p className="font-semibold">
-                    Porque o Andromeda vai mostrar seus anúncios para pessoas DIFERENTES.
+                    Porque o Andromeda vai mostrar seus anúncios para pessoas Diferentes.
                   </p>
                   <ul className="space-y-2">
                     {pillar.list.map((item, i) => (

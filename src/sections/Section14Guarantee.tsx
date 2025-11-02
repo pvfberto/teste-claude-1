@@ -25,8 +25,8 @@ const Section14Guarantee = () => {
           transition={{ duration: 0.8 }}
           className="text-center max-w-3xl mx-auto"
         >
-          <h3 className="text-4xl font-black uppercase text-[#B8860B] mb-10 tracking-wider">
-            ✅ GARANTIA INCONDICIONAL DE 15 DIAS
+          <h3 className="text-4xl font-black text-[#B8860B] mb-10 tracking-wider">
+            ✅ Garantia Incondicional De 15 Dias
           </h3>
 
           <div className="text-2xl text-[#F3EFE0] leading-relaxed space-y-6">
