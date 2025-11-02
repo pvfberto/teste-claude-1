@@ -1,0 +1,52 @@
+import { motion } from 'framer-motion';
+
+const Section14Guarantee = () => {
+  return (
+    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32">
+      <div className="max-w-content mx-auto">
+        {/* Selo de Garantia */}
+        <motion.img
+          src="/assets/sessao_14.png"
+          alt="Selo de Garantia Incondicional 15 Dias"
+          initial={{ opacity: 0, rotate: -5 }}
+          whileInView={{ opacity: 1, rotate: 0 }}
+          viewport={{ once: true }}
+          whileHover={{ rotate: 5 }}
+          transition={{ duration: 0.8 }}
+          className="w-[200px] h-[200px] mx-auto mb-16"
+          loading="lazy"
+        />
+
+        {/* Texto da Garantia */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="text-center max-w-3xl mx-auto"
+        >
+          <h3 className="text-4xl font-black uppercase text-[#B8860B] mb-10 tracking-wider">
+            ✅ GARANTIA INCONDICIONAL DE 15 DIAS
+          </h3>
+
+          <div className="text-2xl text-[#F3EFE0] leading-relaxed space-y-6">
+            <p>Compre agora. Acesse o curso completo.</p>
+            <p>Aplique o Método EM-SA.</p>
+            <p className="pt-4">
+              Se em 15 dias você não ver que valeu cada centavo,
+              <br />
+              eu devolvo 100% do seu dinheiro.
+            </p>
+            <p className="pt-4 font-bold">
+              Sem perguntas. Sem burocracia.
+              <br />
+              Todo o risco é meu.
+            </p>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default Section14Guarantee;

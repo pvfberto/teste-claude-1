@@ -1,0 +1,126 @@
+import { motion } from 'framer-motion';
+
+const Section11Results = () => {
+  const examples = [
+    {
+      scenario: 'Se você investe R$10.000/mês e tem ROAS de 2x',
+      result: 'Com melhoria de 30% você passa para 2.6x',
+      impact: 'R$6.000 A MAIS POR MÊS'
+    },
+    {
+      scenario: 'Se seu CPL está R$50',
+      result: 'Com redução de 30% cai para R$35',
+      impact: '35% MAIS LEADS com o mesmo budget'
+    },
+    {
+      scenario: 'Se você fatura R$50.000/mês com anúncios',
+      result: 'Com melhoria de 30% salta para R$65.000/mês',
+      impact: 'R$15.000 A MAIS'
+    }
+  ];
+
+  return (
+    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32">
+      <div className="max-w-content mx-auto">
+        {/* Título */}
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16"
+        >
+          RESULTADOS REAIS
+          <br />
+          <span className="text-[#B8860B]">(SEM PROMESSAS MALUCAS)</span>
+        </motion.h2>
+
+        {/* Introdução */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+          className="text-center text-xl text-[#F3EFE0] max-w-4xl mx-auto mb-16 leading-relaxed space-y-4"
+        >
+          <p>
+            Em 10 anos analisando R$45 milhões em campanhas, identifiquei que
+            aplicar o Método EM-SA melhora ROAS em, no mínimo, 30% e reduz CPL
+            na mesma proporção.
+          </p>
+          <p>
+            É muito comum nas ofertas ser prometido o resultado do melhor case de sucesso.
+          </p>
+          <p>
+            Eu prefiro trabalhar com a média alcançada por meus alunos que relatam
+            melhorias consistentes de 30-60% nos resultados.
+          </p>
+        </motion.div>
+
+        {/* Infográfico */}
+        <motion.img
+          src="/assets/sessao_11.png"
+          alt="Comparativo de resultados antes e depois do método EM-SA"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="w-full max-w-5xl mx-auto my-20 rounded-lg shadow-[0_8px_40px_rgba(184,134,11,0.2)]"
+          loading="lazy"
+        />
+
+        {/* Subtítulo */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-3xl font-bold text-[#B8860B] text-center mb-10"
+        >
+          Isso significa:
+        </motion.p>
+
+        {/* 3 Exemplos */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
+          {examples.map((example, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ delay: index * 0.15, duration: 0.6 }}
+              className="bg-[#191919] border-l-4 border-[#B8860B] rounded-lg p-8 space-y-4"
+            >
+              <p className="text-lg text-[#F3EFE0] leading-relaxed">
+                {example.scenario}
+              </p>
+              <p className="text-xl text-[#B8860B] flex items-start gap-2">
+                <span>→</span>
+                <span>{example.result}</span>
+              </p>
+              <p className="text-2xl font-black text-[#B8860B] pt-2">
+                = {example.impact}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Projeção anual */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="bg-gradient-to-br from-[rgba(184,134,11,0.15)] to-[rgba(184,134,11,0.05)] border-2 border-[#B8860B] rounded-xl p-16 max-w-3xl mx-auto text-center"
+        >
+          <p className="text-3xl font-semibold mb-4">EM 12 MESES:</p>
+          <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-2">
+            R$72.000 - R$180.000 A MAIS
+          </p>
+          <p className="text-xl text-[#F3EFE0]">no seu negócio</p>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default Section11Results;

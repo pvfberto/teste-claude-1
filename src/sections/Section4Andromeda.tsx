@@ -1,0 +1,160 @@
+import { motion } from 'framer-motion';
+
+const Section4Andromeda = () => {
+  const features = [
+    'Quem vai ver seu anúncio',
+    'Quando vai ver',
+    'Em qual plataforma vai ver',
+    'Quantas vezes vai ver'
+  ];
+
+  return (
+    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32">
+      <div className="max-w-content mx-auto">
+        {/* Título */}
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16"
+        >
+          A META MUDOU AS REGRAS DO JOGO...
+          <br />
+          <span className="text-[#B8860B]">E VOCÊ NÃO FOI AVISADO.</span>
+        </motion.h2>
+
+        {/* Parágrafos introdutórios */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+          className="text-center text-xl text-[#F3EFE0] max-w-3xl mx-auto mb-16 leading-relaxed space-y-4"
+        >
+          <p>Você acha que o problema é você.</p>
+          <p>Que você não é bom o suficiente.</p>
+          <p>Que você não tem "talento" para criar anúncios.</p>
+          <p className="mt-8">
+            Mas deixa eu te contar algo que vai mudar completamente
+            <br />a forma como você vê isso:
+          </p>
+        </motion.div>
+
+        {/* Box de destaque Andromeda */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="bg-gradient-to-br from-[#191919] to-[#1a1410] border-2 border-[#B8860B] rounded-xl p-12 md:p-16 max-w-4xl mx-auto mb-16 glow-gold-strong"
+        >
+          <p className="text-3xl md:text-4xl font-black text-[#B8860B] mb-6">
+            🤖 EM NOVEMBRO DE 2024, A META LANÇOU O ANDROMEDA.
+          </p>
+          <p className="text-2xl md:text-3xl font-bold mb-10">
+            E com ele, TUDO mudou.
+          </p>
+
+          <div className="space-y-6 text-xl leading-relaxed mb-8">
+            <p>
+              O Andromeda é a nova Inteligência Artificial que controla
+              100% da distribuição dos seus anúncios na Meta.
+            </p>
+            <p>E sabe qual é a grande sacada?</p>
+            <p className="font-semibold">O algoritmo agora decide SOZINHO:</p>
+          </div>
+
+          {/* Lista com checkmarks */}
+          <div className="space-y-4 pl-8">
+            {features.map((feature, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1, duration: 0.5 }}
+                className="flex items-center gap-4"
+              >
+                <span className="text-2xl text-[#B8860B]">✓</span>
+                <span className="text-xl font-semibold">{feature}</span>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Infográfico */}
+        <motion.img
+          src="/assets/sessao_4.png"
+          alt="Como o Andromeda mudou as regras dos anúncios na Meta"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="w-full max-w-5xl mx-auto my-20 rounded-lg shadow-2xl"
+          loading="lazy"
+        />
+
+        {/* Parágrafo de transição */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center text-2xl text-[#F3EFE0] max-w-3xl mx-auto mb-8 leading-relaxed"
+        >
+          <p>E sabe o que isso significa na prática?</p>
+          <p className="mt-6">
+            Significa que 80% do resultado das suas campanhas
+            <br />agora vem de UMA COISA:
+          </p>
+        </motion.div>
+
+        {/* Statement impactante */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="text-center max-w-3xl mx-auto mb-16"
+        >
+          <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-8">
+            👉 DOS SEUS ANÚNCIOS.
+          </p>
+          <div className="space-y-3 text-2xl text-[#F3EFE0]">
+            <p>Não da segmentação.</p>
+            <p>Não do orçamento.</p>
+            <p>Não da estrutura de campanha.</p>
+            <p className="mt-8 font-bold text-3xl">
+              DO CRIATIVO. DO ANÚNCIO. DA MENSAGEM.
+            </p>
+          </div>
+        </motion.div>
+
+        {/* Parágrafo final */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center text-xl text-[#F3EFE0] max-w-3xl mx-auto mb-16 space-y-4"
+        >
+          <p>E aqui está o problema:</p>
+          <p>A maioria das pessoas ainda está criando anúncios do jeito "antigo".</p>
+          <p className="font-bold">Mas isso não funciona mais.</p>
+        </motion.div>
+
+        {/* Transição */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center text-3xl font-bold text-[#B8860B] max-w-2xl mx-auto leading-relaxed"
+        >
+          <p>Mas tem uma boa notícia:</p>
+          <p className="mt-4">Eu descobri o código.</p>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default Section4Andromeda;
