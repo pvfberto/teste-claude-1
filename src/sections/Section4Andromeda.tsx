@@ -47,7 +47,7 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-[#191919] to-[#1a1410] border-2 border-[#B8860B] rounded-xl p-12 md:p-16 max-w-4xl mx-auto mb-16 glow-gold-strong"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/40 rounded-xl p-12 md:p-16 max-w-4xl mx-auto mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-3xl md:text-4xl font-black text-[#B8860B] mb-6">
             🤖 Em Novembro De 2024, A Meta Lançou O Andromeda.

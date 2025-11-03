@@ -93,7 +93,7 @@ O SA é o que transforma "interesse" em "ação".`,
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ delay: index * 0.2, duration: 0.8 }}
-              className="bg-[#111111] border border-[rgba(184,134,11,0.3)] rounded-xl p-8 hover:-translate-y-2 hover:shadow-[0_8px_30px_rgba(184,134,11,0.2)] transition-all duration-500"
+              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-8 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:-translate-y-2 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_12px_40px_rgba(184,134,11,0.25)] transition-all duration-500"
             >
               <div className="text-6xl mb-6">{pillar.icon}</div>
               <h3 className="text-3xl font-black text-[#B8860B] mb-4">
@@ -124,7 +124,7 @@ O SA é o que transforma "interesse" em "ação".`,
               )}
 
               {pillar.triggers && (
-                <div className="bg-[rgba(0,0,0,0.3)] rounded-lg p-6 mt-6">
+                <div className="backdrop-blur-md bg-black/20 border border-white/10 rounded-lg p-6 mt-6 shadow-[inset_1px_1px_4px_rgba(0,0,0,0.3)]">
                   <p className="font-semibold mb-3">Gatilhos de SA:</p>
                   <div className="space-y-2">
                     {pillar.triggers.map((trigger, i) => (
@@ -138,7 +138,7 @@ O SA é o que transforma "interesse" em "ação".`,
               )}
 
               {pillar.example && (
-                <div className="bg-[rgba(0,0,0,0.3)] border-l-4 border-[#B8860B] rounded p-6 mt-6 italic text-base text-[rgba(243,239,224,0.9)]">
+                <div className="backdrop-blur-md bg-black/20 border-l-4 border-[#B8860B] rounded p-6 mt-6 italic text-base text-[rgba(243,239,224,0.9)] shadow-[inset_1px_1px_4px_rgba(0,0,0,0.3)]">
                   {pillar.example}
                 </div>
               )}
@@ -152,7 +152,7 @@ O SA é o que transforma "interesse" em "ação".`,
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-[rgba(184,134,11,0.1)] to-[rgba(184,134,11,0.05)] border-2 border-[#B8860B] rounded-xl p-16 max-w-4xl mx-auto mt-20 text-center"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/30 rounded-xl p-16 max-w-4xl mx-auto mt-20 text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-2xl font-semibold text-[#F3EFE0] mb-4">
             Quando você combina os 3 pilares...

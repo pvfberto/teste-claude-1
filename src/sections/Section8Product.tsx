@@ -86,7 +86,7 @@ const Section8Product = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-[#191919] to-[#1a1410] border-4 border-[#B8860B] rounded-2xl p-12 md:p-20 max-w-5xl mx-auto text-center glow-gold-strong"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-12 md:p-20 max-w-5xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)]"
         >
           <h3 className="text-5xl md:text-7xl font-black text-[#B8860B] tracking-wider-2xl mb-8">
             Total Ads 360º

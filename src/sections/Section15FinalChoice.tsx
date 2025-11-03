@@ -24,7 +24,7 @@ const Section15FinalChoice = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-[#0a0a0a] border-2 border-[#8B0000] rounded-xl p-12 relative"
+            className="backdrop-blur-lg bg-black/20 border-2 border-[#8B0000]/40 rounded-xl p-12 relative shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.05),inset_2px_2px_8px_rgba(0,0,0,0.3),0_8px_32px_rgba(139,0,0,0.2)]"
           >
             <div className="text-6xl mb-6 text-[#8B0000]">❌</div>
             <h3 className="text-2xl font-bold text-[#8B0000] mb-6">ESCOLHA 1</h3>
@@ -45,7 +45,7 @@ const Section15FinalChoice = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-br from-[rgba(184,134,11,0.15)] to-[rgba(184,134,11,0.05)] border-4 border-[#B8860B] rounded-xl p-12 relative lg:scale-105 shadow-[0_0_40px_rgba(184,134,11,0.3)]"
+            className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-xl p-12 relative lg:scale-105 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.3)]"
           >
             <div className="text-6xl mb-6 text-[#B8860B]">✅</div>
             <h3 className="text-2xl font-bold text-[#B8860B] mb-6">ESCOLHA 2</h3>
@@ -90,7 +90,7 @@ const Section15FinalChoice = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-[rgba(184,134,11,0.05)] border-l-4 border-[#B8860B] rounded p-10 max-w-3xl mx-auto"
+          className="backdrop-blur-md bg-[#B8860B]/5 border-l-4 border-[#B8860B] rounded p-10 max-w-3xl mx-auto shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.2)]"
         >
           <div className="text-base italic leading-relaxed text-[rgba(243,239,224,0.9)] space-y-4">
             <p>

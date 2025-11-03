@@ -78,7 +78,7 @@ const Section3Consequences = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
-              className="bg-[#191919] border border-[rgba(184,134,11,0.2)] rounded-lg p-10 hover:shadow-[0_0_20px_rgba(184,134,11,0.15)] transition-all duration-500"
+              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-lg p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.15),inset_2px_2px_8px_rgba(0,0,0,0.25),0_0_30px_rgba(184,134,11,0.2)] transition-all duration-500"
             >
               <div className="text-5xl mb-5">{consequence.emoji}</div>
               <h3 className="text-2xl font-bold mb-4">{consequence.title}</h3>
@@ -95,7 +95,7 @@ const Section3Consequences = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-[rgba(184,134,11,0.1)] border-2 border-[#B8860B] rounded-lg p-12 md:p-16 max-w-3xl mx-auto text-center"
+          className="backdrop-blur-lg bg-[#B8860B]/10 border-2 border-[#B8860B]/30 rounded-lg p-12 md:p-16 max-w-3xl mx-auto text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.15)]"
         >
           <p className="text-2xl md:text-3xl font-bold mb-6">
             Mas Aqui Está A Verdade Que Ninguém Está Te Contando:

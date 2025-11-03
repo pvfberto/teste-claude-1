@@ -48,7 +48,7 @@ const Section5Revelation = () => {
           {badges.map((badge, index) => (
             <div
               key={index}
-              className="bg-[#191919] border border-[rgba(184,134,11,0.3)] rounded-lg p-8 text-center hover:border-[#B8860B] transition-all duration-300"
+              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-lg p-8 text-center shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.3)] hover:border-[#B8860B]/40 transition-all duration-300"
             >
               <div className="text-5xl mb-4">{badge.emoji}</div>
               <div className="text-3xl font-black text-[#B8860B] mb-2">
@@ -117,7 +117,7 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-[rgba(184,134,11,0.1)] border-l-4 border-[#B8860B] rounded p-10 max-w-3xl mx-auto my-16"
+          className="backdrop-blur-md bg-[#B8860B]/10 border-l-4 border-[#B8860B] rounded p-10 max-w-3xl mx-auto my-16 shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.2)]"
         >
           <p className="text-2xl font-semibold leading-relaxed mb-6">
             Não, você não consegue criar UM anúncio que conversa com todo mundo.
@@ -149,7 +149,7 @@ const Section5Revelation = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="bg-[#191919] border-2 border-[#B8860B] rounded-lg p-16 max-w-3xl mx-auto text-center mb-16"
+          className="backdrop-blur-lg bg-white/5 border-2 border-[#B8860B]/40 rounded-lg p-16 max-w-3xl mx-auto text-center mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-4xl font-black">
             👉 <span className="text-[#F3EFE0]">Algoritmos mudam.</span>{' '}

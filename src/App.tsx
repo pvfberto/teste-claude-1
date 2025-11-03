@@ -4,7 +4,6 @@ import Section3Consequences from './sections/Section3Consequences';
 import Section4Andromeda from './sections/Section4Andromeda';
 import Section5Revelation from './sections/Section5Revelation';
 import Section6Framework from './sections/Section6Framework';
-import Section7Testimonials from './sections/Section7Testimonials';
 import Section8Product from './sections/Section8Product';
 import Section9Differentials from './sections/Section9Differentials';
 import Section10Includes from './sections/Section10Includes';
@@ -24,7 +23,6 @@ function App() {
       <Section4Andromeda />
       <Section5Revelation />
       <Section6Framework />
-      <Section7Testimonials />
       <Section8Product />
       <Section9Differentials />
       <Section10Includes />

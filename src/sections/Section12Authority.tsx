@@ -45,7 +45,7 @@ const Section12Authority = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className="bg-[#111111] border-2 border-[rgba(184,134,11,0.3)] rounded-xl p-12 text-center hover:border-[#B8860B] hover:-translate-y-1 transition-all duration-400"
+              className="backdrop-blur-lg bg-white/5 border-2 border-white/20 rounded-xl p-12 text-center shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:border-[#B8860B]/40 hover:-translate-y-1 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_12px_40px_rgba(184,134,11,0.2)] transition-all duration-400"
             >
               <div className="text-6xl mb-6">{cred.emoji}</div>
               <div className="text-4xl md:text-5xl font-black text-[#B8860B] mb-3">

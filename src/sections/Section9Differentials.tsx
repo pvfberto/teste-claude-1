@@ -58,7 +58,7 @@ const Section9Differentials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className="bg-[#191919] border border-[rgba(184,134,11,0.2)] rounded-xl p-10 hover:border-[#B8860B] hover:shadow-[0_4px_20px_rgba(184,134,11,0.15)] transition-all duration-400"
+              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:border-[#B8860B]/40 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_8px_40px_rgba(184,134,11,0.2)] transition-all duration-400"
             >
               <div className="text-6xl mb-6 text-[#B8860B]">✅</div>
               <h3 className="text-2xl font-bold mb-4">{diff.title}</h3>

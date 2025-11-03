@@ -57,18 +57,6 @@ const Section11Results = () => {
           </p>
         </motion.div>
 
-        {/* Infográfico */}
-        <motion.img
-          src="/assets/sessao_11.png"
-          alt="Comparativo de resultados antes e depois do método EM-SA"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="w-full max-w-5xl mx-auto my-20 rounded-lg shadow-[0_8px_40px_rgba(184,134,11,0.2)]"
-          loading="lazy"
-        />
-
         {/* Subtítulo */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -88,7 +76,7 @@ const Section11Results = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className="bg-[#191919] border-l-4 border-[#B8860B] rounded-lg p-8 space-y-4"
+              className="backdrop-blur-lg bg-white/5 border-l-4 border-[#B8860B] rounded-lg p-8 space-y-4 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)]"
             >
               <p className="text-lg text-[#F3EFE0] leading-relaxed">
                 {example.scenario}

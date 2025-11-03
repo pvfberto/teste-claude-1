@@ -49,7 +49,7 @@ const Section13Offer = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-[#191919] to-[#1a1410] border-4 border-[#B8860B] rounded-2xl p-12 md:p-20 max-w-2xl mx-auto text-center glow-gold-strong mb-16"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-12 md:p-20 max-w-2xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)] mb-16"
         >
           {/* Preço riscado */}
           <p className="text-3xl text-[rgba(243,239,224,0.5)] line-through mb-8">
@@ -65,14 +65,14 @@ const Section13Offer = () => {
           </p>
 
           {/* Desconto PIX */}
-          <div className="bg-[rgba(16,185,129,0.15)] border-2 border-[#10B981] rounded-lg p-6 mb-10">
+          <div className="backdrop-blur-md bg-[#10B981]/10 border-2 border-[#10B981]/40 rounded-lg p-6 mb-10 shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(16,185,129,0.15)]">
             <p className="text-2xl font-bold text-[#10B981]">
               💎 Economize 10% no PIX: R$269,99
             </p>
           </div>
 
           {/* Contador */}
-          <div className="bg-[rgba(139,0,0,0.1)] border-2 border-[#8B0000] rounded-xl p-10">
+          <div className="backdrop-blur-md bg-[#8B0000]/10 border-2 border-[#8B0000]/40 rounded-xl p-10 shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(139,0,0,0.15)]">
             <p className="text-2xl font-bold mb-6">⏰ ESSA OFERTA TERMINA EM:</p>
             <CountdownTimer targetDate={targetDate} />
           </div>

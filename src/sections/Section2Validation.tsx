@@ -56,7 +56,7 @@ const Section2Validation = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="flex items-start gap-4 bg-[rgba(255,255,255,0.02)] p-6 rounded border-l-4 border-[#B8860B] hover:bg-[rgba(255,255,255,0.04)] transition-all duration-300"
+              className="flex items-start gap-4 backdrop-blur-md bg-white/5 p-6 rounded border-l-4 border-[#B8860B] shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_4px_16px_rgba(0,0,0,0.2)] hover:bg-white/10 transition-all duration-300"
             >
               <span className="text-3xl opacity-60 flex-shrink-0">
                 {index % 2 === 0 ? '❌' : '⚠️'}
