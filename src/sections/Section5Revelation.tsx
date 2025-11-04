@@ -8,7 +8,7 @@ const Section5Revelation = () => {
   ];
 
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32">
+    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
