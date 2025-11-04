@@ -17,7 +17,7 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
     <motion.button
       onClick={onClick}
       className={`
-        gradient-gold-animated font-black text-black rounded-lg
+        gradient-gold-animated shimmer-effect font-black text-black rounded-lg
         cursor-pointer border-none transition-all duration-500
         hover:scale-105 hover:glow-gold
         ${large
@@ -30,7 +30,7 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
       whileTap={{ scale: 0.98 }}
       aria-label="Call to action button"
     >
-      {children}
+      <span style={{ position: 'relative', zIndex: 2 }}>{children}</span>
     </motion.button>
   );
 };
