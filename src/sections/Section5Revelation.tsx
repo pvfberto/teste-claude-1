@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { CTAButton } from '../components/CTAButton';
 
 const Section5Revelation = () => {
   const badges = [
@@ -201,6 +202,19 @@ const Section5Revelation = () => {
               O Método EM-SA.
             </p>
           </div>
+        </motion.div>
+
+        {/* CTA Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="flex justify-center mt-16"
+        >
+          <CTAButton onClick={() => window.location.href = '#oferta'}>
+            Quero Aplicar o Método EM-SA Nas Minhas Campanhas
+          </CTAButton>
         </motion.div>
       </div>
     </section>
