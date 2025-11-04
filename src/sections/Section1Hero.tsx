@@ -10,7 +10,7 @@ const Section1Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-black px-6 md:px-20 py-12 md:py-20 relative grain-effect-light">
+    <section className="min-h-screen flex flex-col items-center justify-start md:justify-center bg-black px-6 md:px-20 pt-20 pb-16 md:py-20 relative grain-effect-light">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -72,7 +72,7 @@ const Section1Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
-          className="absolute bottom-10 cursor-pointer"
+          className="absolute bottom-4 md:bottom-10 cursor-pointer"
           onClick={scrollToNextSection}
         >
           <div className="text-[#B8860B] text-4xl animate-bounce">
