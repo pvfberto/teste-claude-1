@@ -17,16 +17,6 @@ const Section1Hero = () => {
         transition={{ duration: 1 }}
         className="max-w-content mx-auto flex flex-col items-center text-center"
       >
-        {/* Logo/Marca */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="absolute top-8 left-8 text-[#B8860B] font-black text-xl md:text-2xl tracking-wider-xl"
-        >
-          TOTAL ADS 360º
-        </motion.div>
-
         {/* Headline principal */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
