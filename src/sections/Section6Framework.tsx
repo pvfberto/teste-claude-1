@@ -40,8 +40,7 @@ Mas aqui está o segredo: a Mensagem precisa variar.`,
 
 Pode ser urgência, escassez, medo de perder, desejo de pertencimento, prova social, garantia...
 
-O SA é o que transforma "interesse" em "ação".`,
-      triggers: ['Urgência', 'Escassez', 'Medo de perder', 'Prova social', 'Garantia']
+O SA é o que transforma "interesse" em "ação".`
     }
   ];
 
@@ -125,20 +124,6 @@ O SA é o que transforma "interesse" em "ação".`,
                   {pillar.footer && (
                     <p className="mt-4">{pillar.footer}</p>
                   )}
-                </div>
-              )}
-
-              {pillar.triggers && (
-                <div className="backdrop-blur-md bg-black/20 border border-white/10 rounded-lg p-6 mt-6 shadow-[inset_1px_1px_4px_rgba(0,0,0,0.3)]">
-                  <p className="font-semibold mb-3">Gatilhos de SA:</p>
-                  <div className="space-y-2">
-                    {pillar.triggers.map((trigger, i) => (
-                      <div key={i} className="flex items-center gap-2">
-                        <span className="text-[#B8860B]">✓</span>
-                        <span>{trigger}</span>
-                      </div>
-                    ))}
-                  </div>
                 </div>
               )}
 
