@@ -20,7 +20,7 @@ const Section11Results = () => {
   ];
 
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32">
+    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
