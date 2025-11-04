@@ -45,7 +45,7 @@ O SA é o que transforma "interesse" em "ação".`,
   ];
 
   return (
-    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32">
+    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2

@@ -8,7 +8,7 @@ const Section13Offer = () => {
   targetDate.setDate(targetDate.getDate() + 7);
 
   return (
-    <section id="oferta" className="bg-[#191919] px-6 md:px-20 py-20 md:py-32">
+    <section id="oferta" className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Introdução */}
         <motion.div
