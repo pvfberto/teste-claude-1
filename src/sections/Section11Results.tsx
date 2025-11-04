@@ -28,7 +28,7 @@ const Section11Results = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16"
+          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16 leading-tight"
         >
           RESULTADOS REAIS
           <br />

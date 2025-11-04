@@ -19,7 +19,7 @@ const Section8Product = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16 leading-tight"
         >
           Como Você Aprende A Aplicar
           <br />

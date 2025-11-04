@@ -47,7 +47,7 @@ const Section3Consequences = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-10"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-10 leading-tight"
         >
           O Que Acontece Se Você Continuar
           <br />
