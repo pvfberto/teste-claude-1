@@ -10,7 +10,7 @@ const Section1Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-start md:justify-center bg-black px-6 md:px-20 pt-20 pb-16 md:py-20 relative grain-effect-light">
+    <section className="md:min-h-screen flex flex-col items-center justify-start md:justify-center bg-black px-6 md:px-20 pt-20 pb-16 md:py-20 relative grain-effect-light">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
