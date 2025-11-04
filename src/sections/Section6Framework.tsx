@@ -188,7 +188,7 @@ O SA é o que transforma "interesse" em "ação".`,
           className="flex justify-center mt-16"
         >
           <CTAButton onClick={() => window.location.href = '#oferta'}>
-            Quero Fazer Anúncios Que o Andromeda Ama!
+            🚀 QUERO FAZER ANÚNCIOS QUE O ANDROMEDA AMA!
           </CTAButton>
         </motion.div>
       </div>

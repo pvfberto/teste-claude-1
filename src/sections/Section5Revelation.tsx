@@ -213,7 +213,7 @@ const Section5Revelation = () => {
           className="flex justify-center mt-16"
         >
           <CTAButton onClick={() => window.location.href = '#oferta'}>
-            Quero Aplicar o Método EM-SA Nas Minhas Campanhas
+            🚀 QUERO APLICAR O MÉTODO EM-SA NAS MINHAS CAMPANHAS
           </CTAButton>
         </motion.div>
       </div>

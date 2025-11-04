@@ -91,7 +91,7 @@ const Section9Differentials = () => {
           className="flex justify-center mt-16"
         >
           <CTAButton onClick={() => window.location.href = '#oferta'}>
-            Quero Adquirir o Curso Total Ads 360º
+            🚀 QUERO ADQUIRIR O CURSO TOTAL ADS 360º
           </CTAButton>
         </motion.div>
       </div>
