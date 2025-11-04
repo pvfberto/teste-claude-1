@@ -14,12 +14,13 @@ const Footer = () => {
 
         {/* Links */}
         <div className="flex justify-center gap-6 text-sm text-[rgba(243,239,224,0.5)]">
-          <a href="#" className="hover:text-[#B8860B] transition-colors">
-            Termos de Uso
-          </a>
-          <span>|</span>
-          <a href="#" className="hover:text-[#B8860B] transition-colors">
-            Política de Privacidade
+          <a
+            href="https://politicas.pauloberto.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#B8860B] transition-colors"
+          >
+            Termos de Uso e Política de Privacidade
           </a>
         </div>
       </div>
