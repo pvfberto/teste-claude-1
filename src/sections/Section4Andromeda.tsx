@@ -84,16 +84,30 @@ const Section4Andromeda = () => {
         </motion.div>
 
         {/* Infográfico */}
-        <motion.img
-          src="/assets/sessao_4.png"
-          alt="Como o Andromeda mudou as regras dos anúncios na Meta"
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-5xl mx-auto my-20 rounded-lg shadow-2xl"
-          loading="lazy"
-        />
+          className="w-full max-w-5xl mx-auto my-20"
+        >
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcSet="/assets/sessao_4_mobile.png"
+            />
+            <source
+              media="(min-width: 769px)"
+              srcSet="/assets/sessao_4.png"
+            />
+            <img
+              src="/assets/sessao_4.png"
+              alt="Como o Andromeda mudou as regras dos anúncios na Meta"
+              className="w-full rounded-lg shadow-2xl"
+              loading="lazy"
+            />
+          </picture>
+        </motion.div>
 
         {/* Parágrafo de transição */}
         <motion.div
