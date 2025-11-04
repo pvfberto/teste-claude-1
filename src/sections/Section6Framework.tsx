@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { CTAButton } from '../components/CTAButton';
 
 const Section6Framework = () => {
   const pillars = [
@@ -176,6 +177,19 @@ O SA é o que transforma "interesse" em "ação".`,
           <p>Mas aqui está o problema:</p>
           <p>Saber o framework não é o suficiente.</p>
           <p className="font-bold">Você precisa saber COMO aplicar na prática.</p>
+        </motion.div>
+
+        {/* CTA Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="flex justify-center mt-16"
+        >
+          <CTAButton onClick={() => window.location.href = '#oferta'}>
+            Quero Fazer Anúncios Que o Andromeda Ama!
+          </CTAButton>
         </motion.div>
       </div>
     </section>
