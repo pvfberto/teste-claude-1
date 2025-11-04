@@ -8,7 +8,7 @@ const Section13Offer = () => {
   targetDate.setDate(targetDate.getDate() + 7);
 
   return (
-    <section id="oferta" className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section id="oferta" className="bg-[#191919] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Introdução */}
         <motion.div
@@ -16,7 +16,7 @@ const Section13Offer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-10 md:mb-16"
         >
           <p className="text-4xl font-black text-[#B8860B] mb-10">
             💰 INVESTIMENTO:
@@ -38,7 +38,7 @@ const Section13Offer = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black text-[#B8860B] text-center mb-16 animate-pulse-subtle"
+          className="text-4xl md:text-5xl font-black text-[#B8860B] text-center mb-10 md:mb-16 animate-pulse-subtle"
         >
           🔥 Oferta Especial Black Friday
         </motion.h2>
@@ -49,7 +49,7 @@ const Section13Offer = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-12 md:p-20 max-w-2xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)] mb-16"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-8 md:p-12 lg:p-16 max-w-2xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)] mb-10 md:mb-16"
         >
           {/* Preço riscado */}
           <p className="text-3xl text-[rgba(243,239,224,0.5)] line-through mb-8">
@@ -72,7 +72,7 @@ const Section13Offer = () => {
           </div>
 
           {/* Contador */}
-          <div className="backdrop-blur-md bg-[#8B0000]/10 border-2 border-[#8B0000]/40 rounded-xl p-4 md:p-10 shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(139,0,0,0.15)]">
+          <div className="backdrop-blur-md bg-[#8B0000]/10 border-2 border-[#8B0000]/40 rounded-xl p-4 md:p-6 lg:p-10 shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(139,0,0,0.15)]">
             <p className="text-xl md:text-2xl font-bold mb-4 md:mb-6">⏰ ESSA OFERTA TERMINA EM:</p>
             <CountdownTimer targetDate={targetDate} />
           </div>

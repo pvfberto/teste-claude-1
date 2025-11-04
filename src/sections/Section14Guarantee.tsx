@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Section14Guarantee = () => {
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#111111] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Selo de Garantia */}
         <motion.div
@@ -11,7 +11,7 @@ const Section14Guarantee = () => {
           viewport={{ once: true }}
           whileHover={{ rotate: 5 }}
           transition={{ duration: 0.8 }}
-          className="w-[200px] h-[200px] mx-auto mb-16 image-glass-container"
+          className="w-[200px] h-[200px] mx-auto mb-10 md:mb-16 image-glass-container"
         >
           <img
             src="/assets/sessao_14.png"
@@ -29,7 +29,7 @@ const Section14Guarantee = () => {
           transition={{ duration: 0.8 }}
           className="text-center max-w-3xl mx-auto"
         >
-          <h3 className="text-4xl font-black text-[#B8860B] mb-10 tracking-wider">
+          <h3 className="text-4xl font-black text-[#B8860B] mb-8 md:mb-12 tracking-wider">
             ✅ Garantia Incondicional De 15 Dias
           </h3>
 

@@ -29,7 +29,7 @@ const Section10Includes = () => {
   ];
 
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#111111] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -37,13 +37,13 @@ const Section10Includes = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-20"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-10 md:mb-16"
         >
           O Que Está Incluído:
         </motion.h2>
 
         {/* Lista em grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 max-w-5xl mx-auto">
           {includes.map((item, index) => (
             <motion.div
               key={index}

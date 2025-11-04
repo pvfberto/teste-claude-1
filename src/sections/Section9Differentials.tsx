@@ -18,7 +18,7 @@ const Section9Differentials = () => {
   ];
 
   return (
-    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#191919] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -37,7 +37,7 @@ const Section9Differentials = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-2xl text-center text-[#F3EFE0] max-w-4xl mx-auto mb-20 leading-relaxed"
+          className="text-2xl text-center text-[#F3EFE0] max-w-4xl mx-auto mb-10 md:mb-16 leading-relaxed"
         >
           Ao contrário de outros cursos que te deixam "sozinho" depois das aulas,
           <br />
@@ -50,7 +50,7 @@ const Section9Differentials = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-16"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto mb-10 md:mb-16"
         >
           {differentials.map((diff, index) => (
             <motion.div
@@ -59,7 +59,7 @@ const Section9Differentials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className={`backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:border-[#B8860B]/40 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_8px_40px_rgba(184,134,11,0.2)] transition-all duration-400 ${index === 2 ? 'md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto' : ''}`}
+              className={`backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-6 md:p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:border-[#B8860B]/40 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_8px_40px_rgba(184,134,11,0.2)] transition-all duration-400 ${index === 2 ? 'md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto' : ''}`}
             >
               <div className="text-6xl mb-6 text-[#B8860B]">✅</div>
               <h3 className="text-2xl font-bold mb-4">{diff.title}</h3>
@@ -88,7 +88,7 @@ const Section9Differentials = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
-          className="flex justify-center mt-16"
+          className="flex justify-center mt-8 md:mt-16"
         >
           <CTAButton onClick={() => window.location.href = '#oferta'}>
             🚀 QUERO ADQUIRIR O CURSO TOTAL ADS 360º

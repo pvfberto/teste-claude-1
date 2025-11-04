@@ -42,7 +42,7 @@ const Section7Testimonials = () => {
   ];
 
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32">
+    <section className="bg-[#111111] px-6 md:px-20 py-12 md:py-24">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -61,7 +61,7 @@ const Section7Testimonials = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-2xl text-center text-[#F3EFE0] mb-20"
+          className="text-2xl text-center text-[#F3EFE0] mb-10 md:mb-16"
         >
           Veja o que alunos que estavam na sua situação estão dizendo:
         </motion.p>
@@ -90,7 +90,7 @@ const Section7Testimonials = () => {
           >
             {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-[#191919] border-t-4 border-[#B8860B] rounded-lg p-10 h-full flex flex-col shadow-[0_4px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-transform duration-300">
+                <div className="bg-[#191919] border-t-4 border-[#B8860B] rounded-lg p-6 md:p-10 h-full flex flex-col shadow-[0_4px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-transform duration-300">
                   {/* Estrelas */}
                   <div className="text-3xl text-[#B8860B] mb-6">
                     {'⭐'.repeat(testimonial.stars)}

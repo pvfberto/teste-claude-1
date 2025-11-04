@@ -9,7 +9,7 @@ const Section5Revelation = () => {
   ];
 
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#111111] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -17,7 +17,7 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-5xl font-black tracking-wider-xl text-center mb-16 leading-tight"
+          className="text-3xl md:text-5xl font-black tracking-wider-xl text-center mb-10 md:mb-16 leading-tight"
         >
           Depois De 10 Anos Gerenciando R$45 Milhões Em Tráfego...
           <br />
@@ -32,7 +32,7 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] mx-auto mb-16 image-glass-container"
+          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] mx-auto mb-10 md:mb-16 image-glass-container"
         >
           <img
             src="/assets/sessao_5.png"
@@ -48,7 +48,7 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-20"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-10 md:mb-16"
         >
           {badges.map((badge, index) => (
             <div
@@ -122,7 +122,7 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-md bg-[#B8860B]/10 border-l-4 border-[#B8860B] rounded p-10 max-w-3xl mx-auto my-16 shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.2)]"
+          className="backdrop-blur-md bg-[#B8860B]/10 border-l-4 border-[#B8860B] rounded p-6 md:p-10 max-w-3xl mx-auto my-10 md:my-16 shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.2)]"
         >
           <p className="text-2xl font-semibold leading-relaxed mb-6">
             Não, você não consegue criar UM anúncio que conversa com todo mundo.
@@ -142,7 +142,7 @@ const Section5Revelation = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-2xl max-w-3xl mx-auto space-y-6 mb-16"
+          className="text-center text-2xl max-w-3xl mx-auto space-y-6 mb-10 md:mb-16"
         >
           <p>E aqui está o mais interessante:</p>
           <p>Eu não criei esse método pensando no Andromeda (ele nem existia ainda).</p>
@@ -154,7 +154,7 @@ const Section5Revelation = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="backdrop-blur-lg bg-white/5 border-2 border-[#B8860B]/40 rounded-lg p-16 max-w-3xl mx-auto text-center mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
+          className="backdrop-blur-lg bg-white/5 border-2 border-[#B8860B]/40 rounded-lg p-10 md:p-16 max-w-3xl mx-auto text-center mb-10 md:mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-4xl font-black">
             👉 <span className="text-[#F3EFE0]">Algoritmos mudam.</span>{' '}
@@ -210,7 +210,7 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
-          className="flex justify-center mt-16"
+          className="flex justify-center mt-8 md:mt-16"
         >
           <CTAButton onClick={() => window.location.href = '#oferta'}>
             🚀 QUERO APLICAR O MÉTODO EM-SA® NAS MINHAS CAMPANHAS

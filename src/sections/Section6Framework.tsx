@@ -46,7 +46,7 @@ O SA é o que transforma "interesse" em "ação".`,
   ];
 
   return (
-    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#191919] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -54,7 +54,7 @@ O SA é o que transforma "interesse" em "ação".`,
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-6xl font-black tracking-wider-2xl text-center mb-10"
+          className="text-5xl md:text-6xl font-black tracking-wider-2xl text-center mb-8 md:mb-12"
         >
           EM-SA Significa:
         </motion.h2>
@@ -64,7 +64,7 @@ O SA é o que transforma "interesse" em "ação".`,
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-10 md:mb-16"
         >
           <div className="text-3xl font-bold text-[#B8860B] space-y-4">
             <p>E = Estímulo</p>
@@ -79,7 +79,7 @@ O SA é o que transforma "interesse" em "ação".`,
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-6xl mx-auto my-20 image-glass-container"
+          className="w-full max-w-6xl mx-auto my-10 md:my-16 image-glass-container"
         >
           <img
             src="/assets/sessao_6.png"
@@ -90,7 +90,7 @@ O SA é o que transforma "interesse" em "ação".`,
         </motion.div>
 
         {/* 3 Pilares */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto mt-10 md:mt-16">
           {pillars.map((pillar, index) => (
             <motion.div
               key={index}
@@ -98,7 +98,7 @@ O SA é o que transforma "interesse" em "ação".`,
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ delay: index * 0.2, duration: 0.8 }}
-              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-8 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:-translate-y-2 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_12px_40px_rgba(184,134,11,0.25)] transition-all duration-500"
+              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-6 md:p-8 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:-translate-y-2 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_12px_40px_rgba(184,134,11,0.25)] transition-all duration-500"
             >
               <div className="text-6xl mb-6">{pillar.icon}</div>
               <h3 className="text-3xl font-black text-[#B8860B] mb-4">
@@ -157,7 +157,7 @@ O SA é o que transforma "interesse" em "ação".`,
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/30 rounded-xl p-16 max-w-4xl mx-auto mt-20 text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/30 rounded-xl p-10 md:p-16 max-w-4xl mx-auto mt-10 md:mt-16 text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-2xl font-semibold text-[#F3EFE0] mb-4">
             Quando você combina os 3 pilares...
@@ -172,7 +172,7 @@ O SA é o que transforma "interesse" em "ação".`,
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-xl max-w-3xl mx-auto mt-16 space-y-4"
+          className="text-center text-xl max-w-3xl mx-auto mt-8 md:mt-16 space-y-4"
         >
           <p>Mas aqui está o problema:</p>
           <p>Saber o framework não é o suficiente.</p>
@@ -185,7 +185,7 @@ O SA é o que transforma "interesse" em "ação".`,
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
-          className="flex justify-center mt-16"
+          className="flex justify-center mt-8 md:mt-16"
         >
           <CTAButton onClick={() => window.location.href = '#oferta'}>
             🚀 QUERO FAZER ANÚNCIOS QUE O ANDROMEDA AMA!

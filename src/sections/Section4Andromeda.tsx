@@ -9,7 +9,7 @@ const Section4Andromeda = () => {
   ];
 
   return (
-    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#191919] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -17,7 +17,7 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16 leading-tight"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-10 md:mb-16 leading-tight"
         >
           A Meta Mudou As Regras Do Jogo...
           <br />
@@ -30,7 +30,7 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-center text-xl text-[#F3EFE0] max-w-3xl mx-auto mb-16 leading-relaxed space-y-4"
+          className="text-center text-xl text-[#F3EFE0] max-w-3xl mx-auto mb-10 md:mb-16 leading-relaxed space-y-4"
         >
           <p>Você acha que o problema é você.</p>
           <p>Que você não é bom o suficiente.</p>
@@ -47,7 +47,7 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/40 rounded-xl p-12 md:p-16 max-w-4xl mx-auto mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/40 rounded-xl p-8 md:p-12 lg:p-16 max-w-4xl mx-auto mb-10 md:mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-3xl md:text-4xl font-black text-[#B8860B] mb-6">
             🤖 Em Novembro De 2024, A Meta Lançou O Andromeda.
@@ -89,7 +89,7 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-5xl mx-auto my-20 image-glass-container"
+          className="w-full max-w-5xl mx-auto my-10 md:my-16 image-glass-container"
         >
           <picture>
             <source
@@ -129,7 +129,7 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center max-w-3xl mx-auto mb-16"
+          className="text-center max-w-3xl mx-auto mb-10 md:mb-16"
         >
           <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-8">
             👉 Dos Seus Anúncios.
@@ -149,7 +149,7 @@ const Section4Andromeda = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-xl text-[#F3EFE0] max-w-3xl mx-auto mb-16 space-y-4"
+          className="text-center text-xl text-[#F3EFE0] max-w-3xl mx-auto mb-10 md:mb-16 space-y-4"
         >
           <p>E aqui está o problema:</p>
           <p>A maioria das pessoas ainda está criando anúncios do jeito "antigo".</p>

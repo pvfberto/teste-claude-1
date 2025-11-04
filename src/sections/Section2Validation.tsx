@@ -29,7 +29,7 @@ const Section2Validation = () => {
   };
 
   return (
-    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#191919] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -37,7 +37,7 @@ const Section2Validation = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16 leading-tight"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-8 md:mb-12 leading-tight"
         >
           Se você está lendo isso, é porque algo mudou.
           <br />
@@ -50,7 +50,7 @@ const Section2Validation = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16"
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8 md:mb-12"
         >
           {painPoints.map((point, index) => (
             <motion.div

@@ -39,7 +39,7 @@ const Section3Consequences = () => {
   };
 
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#111111] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -47,7 +47,7 @@ const Section3Consequences = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-10 leading-tight"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-6 md:mb-10 leading-tight"
         >
           O Que Acontece Se Você Continuar
           <br />
@@ -60,7 +60,7 @@ const Section3Consequences = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-center text-xl text-[#F3EFE0] max-w-4xl mx-auto mb-20 leading-relaxed"
+          className="text-center text-xl text-[#F3EFE0] max-w-4xl mx-auto mb-10 md:mb-16 leading-relaxed"
         >
           <p>Deixa eu ser direto com você.</p>
           <p className="mt-4">
@@ -70,7 +70,7 @@ const Section3Consequences = () => {
         </motion.div>
 
         {/* Cards de consequências */}
-        <div className="max-w-4xl mx-auto space-y-10 mb-20">
+        <div className="max-w-4xl mx-auto space-y-6 md:space-y-10 mb-10 md:mb-16">
           {consequences.map((consequence, index) => (
             <motion.div
               key={index}
@@ -78,7 +78,7 @@ const Section3Consequences = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.3 }}
-              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-lg p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.15),inset_2px_2px_8px_rgba(0,0,0,0.25),0_0_30px_rgba(184,134,11,0.2)] transition-all duration-500"
+              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-lg p-6 md:p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.15),inset_2px_2px_8px_rgba(0,0,0,0.25),0_0_30px_rgba(184,134,11,0.2)] transition-all duration-500"
             >
               <div className="text-5xl mb-5">{consequence.emoji}</div>
               <h3 className="text-2xl font-bold mb-4">{consequence.title}</h3>
@@ -95,7 +95,7 @@ const Section3Consequences = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-[#B8860B]/10 border-2 border-[#B8860B]/30 rounded-lg p-12 md:p-16 max-w-3xl mx-auto text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.15)]"
+          className="backdrop-blur-lg bg-[#B8860B]/10 border-2 border-[#B8860B]/30 rounded-lg p-8 md:p-12 lg:p-16 max-w-3xl mx-auto text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.15)]"
         >
           <p className="text-2xl md:text-3xl font-bold mb-6">
             Mas Aqui Está A Verdade Que Ninguém Está Te Contando:

@@ -11,7 +11,7 @@ const Section8Product = () => {
   ];
 
   return (
-    <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#111111] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -19,7 +19,7 @@ const Section8Product = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16 leading-tight"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-10 md:mb-16 leading-tight"
         >
           Como Você Aprende A Aplicar
           <br />
@@ -32,7 +32,7 @@ const Section8Product = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-center text-xl text-[#F3EFE0] max-w-4xl mx-auto mb-16 leading-relaxed space-y-4"
+          className="text-center text-xl text-[#F3EFE0] max-w-4xl mx-auto mb-10 md:mb-16 leading-relaxed space-y-4"
         >
           <p>
             O Framework EM-SA que acabei de te mostrar é o resultado de
@@ -50,7 +50,7 @@ const Section8Product = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="max-w-3xl mx-auto mb-16"
+          className="max-w-3xl mx-auto mb-10 md:mb-16"
         >
           <p className="text-2xl font-semibold mb-6">Você precisa entender:</p>
           <div className="space-y-4">
@@ -75,7 +75,7 @@ const Section8Product = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-2xl font-bold text-[#B8860B] mb-20"
+          className="text-center text-2xl font-bold text-[#B8860B] mb-10 md:mb-16"
         >
           E é exatamente isso que eu ensino no Total Ads 360º.
         </motion.p>
@@ -86,7 +86,7 @@ const Section8Product = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-12 md:p-20 max-w-5xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)]"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-8 md:p-12 lg:p-16 max-w-5xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)]"
         >
           <h3 className="text-5xl md:text-7xl font-black text-[#B8860B] tracking-wider-2xl mb-8">
             Total Ads 360º

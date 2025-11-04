@@ -10,7 +10,7 @@ const Section1Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-black px-6 md:px-20 py-20 relative grain-effect-light">
+    <section className="min-h-screen flex flex-col items-center justify-center bg-black px-6 md:px-20 py-12 md:py-20 relative grain-effect-light">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -45,7 +45,7 @@ const Section1Hero = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.9, duration: 0.8 }}
-          className="w-full max-w-[800px] mx-auto my-12 image-glass-container"
+          className="w-full max-w-[800px] mx-auto my-8 md:my-12 image-glass-container"
         >
           <img
             src="/assets/sessao_1.png"
@@ -60,7 +60,7 @@ const Section1Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.2 }}
-          className="mt-10"
+          className="mt-6 md:mt-10"
         >
           <CTAButton onClick={scrollToNextSection}>
             🚀 DESCOBRIR O MÉTODO AGORA

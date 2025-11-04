@@ -20,7 +20,7 @@ const Section11Results = () => {
   ];
 
   return (
-    <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
+    <section className="bg-[#191919] px-6 md:px-20 py-12 md:py-24 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Título */}
         <motion.h2
@@ -28,7 +28,7 @@ const Section11Results = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-16 leading-tight"
+          className="text-4xl md:text-5xl font-black uppercase tracking-wider-xl text-center mb-10 md:mb-16 leading-tight"
         >
           RESULTADOS REAIS
           <br />
@@ -41,7 +41,7 @@ const Section11Results = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-center text-xl text-[#F3EFE0] max-w-4xl mx-auto mb-16 leading-relaxed space-y-4"
+          className="text-center text-xl text-[#F3EFE0] max-w-4xl mx-auto mb-10 md:mb-16 leading-relaxed space-y-4"
         >
           <p>
             Em 10 anos analisando R$45 milhões em campanhas, identifiquei que
@@ -68,7 +68,7 @@ const Section11Results = () => {
         </motion.p>
 
         {/* 3 Exemplos */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto mb-10 md:mb-16">
           {examples.map((example, index) => (
             <motion.div
               key={index}
@@ -76,7 +76,7 @@ const Section11Results = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className="backdrop-blur-lg bg-white/5 border-l-4 border-[#B8860B] rounded-lg p-8 space-y-4 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)]"
+              className="backdrop-blur-lg bg-white/5 border-l-4 border-[#B8860B] rounded-lg p-6 md:p-8 space-y-4 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)]"
             >
               <p className="text-lg text-[#F3EFE0] leading-relaxed">
                 {example.scenario}
