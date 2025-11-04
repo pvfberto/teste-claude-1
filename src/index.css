@@ -88,6 +88,12 @@ body {
   background-size: 4px 4px;
 }
 
+.grain-effect-light {
+  position: relative;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.15) 2px, transparent 2px);
+  background-size: 4px 4px;
+}
+
 .shimmer-effect {
   position: relative;
   overflow: hidden;
