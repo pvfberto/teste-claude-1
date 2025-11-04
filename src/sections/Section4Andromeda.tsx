@@ -89,7 +89,7 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-5xl mx-auto my-20"
+          className="w-full max-w-5xl mx-auto my-20 image-glass-container"
         >
           <picture>
             <source
@@ -103,7 +103,7 @@ const Section4Andromeda = () => {
             <img
               src="/assets/sessao_4.png"
               alt="Como o Andromeda mudou as regras dos anúncios na Meta"
-              className="w-full rounded-lg shadow-2xl"
+              className="w-full rounded-lg"
               loading="lazy"
             />
           </picture>

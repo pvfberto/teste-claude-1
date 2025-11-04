@@ -5,17 +5,21 @@ const Section14Guarantee = () => {
     <section className="bg-[#111111] px-6 md:px-20 py-20 md:py-32 grain-effect">
       <div className="max-w-content mx-auto">
         {/* Selo de Garantia */}
-        <motion.img
-          src="/assets/sessao_14.png"
-          alt="Selo de Garantia Incondicional 15 Dias"
+        <motion.div
           initial={{ opacity: 0, rotate: -5 }}
           whileInView={{ opacity: 1, rotate: 0 }}
           viewport={{ once: true }}
           whileHover={{ rotate: 5 }}
           transition={{ duration: 0.8 }}
-          className="w-[200px] h-[200px] mx-auto mb-16"
-          loading="lazy"
-        />
+          className="w-[200px] h-[200px] mx-auto mb-16 image-glass-container"
+        >
+          <img
+            src="/assets/sessao_14.png"
+            alt="Selo de Garantia Incondicional 15 Dias"
+            className="w-full h-full rounded-lg object-contain"
+            loading="lazy"
+          />
+        </motion.div>
 
         {/* Texto da Garantia */}
         <motion.div

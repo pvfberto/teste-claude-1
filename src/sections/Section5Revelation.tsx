@@ -26,16 +26,20 @@ const Section5Revelation = () => {
         </motion.h2>
 
         {/* Foto Paulo Berto */}
-        <motion.img
-          src="/assets/sessao_5.png"
-          alt="Paulo Berto - Especialista em Tráfego Pago"
+        <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] rounded-2xl mx-auto mb-16 border-2 border-[#B8860B] shadow-[0_0_30px_rgba(184,134,11,0.3)] object-cover"
-          loading="lazy"
-        />
+          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] mx-auto mb-16 image-glass-container"
+        >
+          <img
+            src="/assets/sessao_5.png"
+            alt="Paulo Berto - Especialista em Tráfego Pago"
+            className="w-full h-full rounded-xl object-cover"
+            loading="lazy"
+          />
+        </motion.div>
 
         {/* Badges de credenciais */}
         <motion.div

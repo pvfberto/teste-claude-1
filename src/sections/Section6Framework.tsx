@@ -73,16 +73,20 @@ O SA é o que transforma "interesse" em "ação".`,
         </motion.div>
 
         {/* Diagrama */}
-        <motion.img
-          src="/assets/sessao_6.png"
-          alt="Framework EM-SA - Estímulo, Mensagem, Sentimento que Acelera"
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-6xl mx-auto my-20 rounded-lg shadow-2xl"
-          loading="lazy"
-        />
+          className="w-full max-w-6xl mx-auto my-20 image-glass-container"
+        >
+          <img
+            src="/assets/sessao_6.png"
+            alt="Framework EM-SA - Estímulo, Mensagem, Sentimento que Acelera"
+            className="w-full rounded-lg"
+            loading="lazy"
+          />
+        </motion.div>
 
         {/* 3 Pilares */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mt-20">

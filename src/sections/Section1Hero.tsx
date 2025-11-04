@@ -41,15 +41,19 @@ const Section1Hero = () => {
         </motion.p>
 
         {/* Imagem Hero */}
-        <motion.img
-          src="/assets/sessao_1.png"
-          alt="Dashboard de anúncios com métricas em queda"
+        <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.9, duration: 0.8 }}
-          className="w-full max-w-[800px] mx-auto my-12 rounded-lg shadow-2xl"
-          loading="eager"
-        />
+          className="w-full max-w-[800px] mx-auto my-12 image-glass-container"
+        >
+          <img
+            src="/assets/sessao_1.png"
+            alt="Dashboard de anúncios com métricas em queda"
+            className="w-full rounded-lg"
+            loading="eager"
+          />
+        </motion.div>
 
         {/* CTA primário */}
         <motion.div

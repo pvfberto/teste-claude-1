@@ -90,7 +90,7 @@ body {
 
 .grain-effect-light {
   position: relative;
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.15) 2px, transparent 2px);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
   background-size: 4px 4px;
 }
 
@@ -122,4 +122,16 @@ body {
   100% {
     left: 100%;
   }
+}
+
+.image-glass-container {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow:
+    inset -3px -3px 10px rgba(255, 255, 255, 0.1),
+    inset 3px 3px 10px rgba(0, 0, 0, 0.2),
+    0 10px 40px rgba(0, 0, 0, 0.3);
 }
