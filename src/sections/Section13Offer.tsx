@@ -86,7 +86,7 @@ const Section13Offer = () => {
           className="flex flex-col items-center"
         >
           <CTAButton large onClick={() => window.location.href = 'https://checkout.pauloberto.com.br/08288466'}>
-            🚀 QUERO DOMINAR O MÉTODO EM-SA AGORA
+            🚀 QUERO DOMINAR O MÉTODO EM-SA® AGORA
           </CTAButton>
           <p className="text-base italic text-[rgba(243,239,224,0.7)] mt-4">
             (Oferta de Black Friday - Por tempo limitado)

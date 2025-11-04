@@ -5,7 +5,7 @@ const Section9Differentials = () => {
   const differentials = [
     {
       title: 'Prompts de IA para Implementação Rápida',
-      description: 'Prompts otimizados para ChatGPT, Claude e outras IAs que ajudam você a criar variações de anúncios seguindo o Método EM-SA em minutos (não horas).'
+      description: 'Prompts otimizados para ChatGPT, Claude e outras IAs que ajudam você a criar variações de anúncios seguindo o Método EM-SA® em minutos (não horas).'
     },
     {
       title: 'Implementação Guiada Passo a Passo',

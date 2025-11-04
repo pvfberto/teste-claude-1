@@ -35,7 +35,7 @@ const Section14Guarantee = () => {
 
           <div className="text-2xl text-[#F3EFE0] leading-relaxed space-y-6">
             <p>Compre agora. Acesse o curso completo.</p>
-            <p>Aplique o Método EM-SA.</p>
+            <p>Aplique o Método EM-SA®.</p>
             <p className="pt-4">
               Se em 15 dias você não ver que valeu cada centavo,
               <br />

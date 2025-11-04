@@ -45,7 +45,7 @@ const Section11Results = () => {
         >
           <p>
             Em 10 anos analisando R$45 milhões em campanhas, identifiquei que
-            aplicar o Método EM-SA melhora ROAS em, no mínimo, 30% e reduz CPL
+            aplicar o Método EM-SA® melhora ROAS em, no mínimo, 30% e reduz CPL
             na mesma proporção.
           </p>
           <p>

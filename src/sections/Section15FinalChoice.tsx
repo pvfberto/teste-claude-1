@@ -50,7 +50,7 @@ const Section15FinalChoice = () => {
             <div className="text-6xl mb-6 text-[#B8860B]">✅</div>
             <h3 className="text-2xl font-bold text-[#B8860B] mb-6">ESCOLHA 2</h3>
             <div className="text-lg leading-relaxed text-[#F3EFE0] space-y-4">
-              <p>Aprender o Método EM-SA.</p>
+              <p>Aprender o Método EM-SA®.</p>
               <p>Criar anúncios inteligentes que falam com diferentes perfis.</p>
               <p>Ver melhorias de pelo menos 30-60% nos próximos 30 dias.</p>
               <p>Fazer o Andromeda trabalhar a seu favor.</p>
@@ -78,7 +78,7 @@ const Section15FinalChoice = () => {
           className="flex flex-col items-center mb-16"
         >
           <CTAButton large onClick={() => window.location.href = 'https://checkout.pauloberto.com.br/08288466'}>
-            🚀 QUERO DOMINAR O MÉTODO EM-SA AGORA
+            🚀 QUERO DOMINAR O MÉTODO EM-SA® AGORA
           </CTAButton>
           <p className="text-base italic text-[rgba(243,239,224,0.7)] mt-4">
             (Oferta de Black Friday - Por tempo limitado)

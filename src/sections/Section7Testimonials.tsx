@@ -6,7 +6,7 @@ const Section7Testimonials = () => {
   const testimonials = [
     {
       stars: 5,
-      text: 'Eu estava literalmente pensando em desistir. Meus clientes reclamando, campanhas no vermelho, eu sem saber o que fazer. Quando aprendi o Método EM-SA tudo mudou. Em 15 dias consegui melhorar o ROAS de 1.8x para 4.2x em um dos clientes. Salvou minha carreira.',
+      text: 'Eu estava literalmente pensando em desistir. Meus clientes reclamando, campanhas no vermelho, eu sem saber o que fazer. Quando aprendi o Método EM-SA® tudo mudou. Em 15 dias consegui melhorar o ROAS de 1.8x para 4.2x em um dos clientes. Salvou minha carreira.',
       image: '/assets/sessao_7_aluno_1.png',
       name: '[Nome do Aluno]',
       info: 'Gestor de Tráfego | [Cidade/Estado]'
@@ -34,7 +34,7 @@ const Section7Testimonials = () => {
     },
     {
       stars: 5,
-      text: 'Minha agência estava estagnada em R$30k/mês. Implementei o Método EM-SA em TODOS os clientes. Resultado: retenção subiu 80%, indicações explodiram, hoje faturamos R$85k/mês. O método funciona em qualquer nicho.',
+      text: 'Minha agência estava estagnada em R$30k/mês. Implementei o Método EM-SA® em TODOS os clientes. Resultado: retenção subiu 80%, indicações explodiram, hoje faturamos R$85k/mês. O método funciona em qualquer nicho.',
       image: '/assets/sessao_7_aluno_5.png',
       name: '[Nome do Aluno]',
       info: 'Dono de Agência | [Cidade/Estado]'

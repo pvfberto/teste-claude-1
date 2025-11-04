@@ -133,7 +133,7 @@ const Section5Revelation = () => {
           </p>
           <p className="text-xl mt-8">E em 2021, eu estruturei esse método.</p>
           <p className="text-3xl font-black text-[#B8860B] mt-4">
-            Eu chamo ele de Método EM-SA.
+            Eu chamo ele de Método EM-SA®.
           </p>
         </motion.div>
 
@@ -199,7 +199,7 @@ const Section5Revelation = () => {
               Esse é o Método dos Anúncios Inteligentes.
             </p>
             <p className="text-3xl font-black text-[#B8860B] mt-2">
-              O Método EM-SA.
+              O Método EM-SA®.
             </p>
           </div>
         </motion.div>
@@ -213,7 +213,7 @@ const Section5Revelation = () => {
           className="flex justify-center mt-16"
         >
           <CTAButton onClick={() => window.location.href = '#oferta'}>
-            🚀 QUERO APLICAR O MÉTODO EM-SA NAS MINHAS CAMPANHAS
+            🚀 QUERO APLICAR O MÉTODO EM-SA® NAS MINHAS CAMPANHAS
           </CTAButton>
         </motion.div>
       </div>
