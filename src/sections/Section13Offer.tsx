@@ -57,7 +57,7 @@ const Section13Offer = () => {
           </p>
 
           {/* Preço parcelado */}
-          <p className="text-4xl font-semibold mb-4">12x de R$30,12</p>
+          <p className="text-4xl font-semibold mb-4">12x de R$29,23</p>
 
           {/* Preço à vista */}
           <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-10 animate-pulse-subtle">
@@ -85,7 +85,7 @@ const Section13Offer = () => {
           viewport={{ once: true }}
           className="flex flex-col items-center"
         >
-          <CTAButton large onClick={() => alert('Redirecionar para página de checkout')}>
+          <CTAButton large onClick={() => window.location.href = 'https://checkout.pauloberto.com.br/08288466'}>
             🚀 QUERO DOMINAR O MÉTODO EM-SA AGORA
           </CTAButton>
           <p className="text-base italic text-[rgba(243,239,224,0.7)] mt-4">
