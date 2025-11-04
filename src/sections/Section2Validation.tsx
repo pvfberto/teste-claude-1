@@ -31,18 +31,18 @@ const Section2Validation = () => {
   return (
     <section className="bg-[#191919] px-6 md:px-20 py-20 md:py-32 grain-effect">
       <div className="max-w-content mx-auto">
-        {/* Introdução */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
+        {/* Título */}
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center text-xl text-[#F3EFE0] max-w-3xl mx-auto mb-16"
+          className="text-4xl md:text-5xl font-black tracking-wider-xl text-center mb-16 leading-tight"
         >
-          "Se você está lendo isso, é porque algo mudou.
+          Se você está lendo isso, é porque algo mudou.
           <br />
-          Talvez você tenha notado que:"
-        </motion.p>
+          <span className="text-[#B8860B]">Talvez você tenha notado que:</span>
+        </motion.h2>
 
         {/* Lista de dores */}
         <motion.div

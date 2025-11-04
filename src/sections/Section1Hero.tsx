@@ -62,7 +62,7 @@ const Section1Hero = () => {
           transition={{ delay: 1.2 }}
           className="mt-10"
         >
-          <CTAButton onClick={() => window.location.href = 'https://checkout.pauloberto.com.br/08288466'}>
+          <CTAButton onClick={scrollToNextSection}>
             🚀 DESCOBRIR O MÉTODO AGORA
           </CTAButton>
         </motion.div>
