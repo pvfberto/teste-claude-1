@@ -63,7 +63,7 @@ const Section1Hero = () => {
           className="mt-6 md:mt-10"
         >
           <CTAButton onClick={scrollToNextSection}>
-            🚀 DESCOBRIR O MÉTODO AGORA
+            🔽 QUERO ENTENDER O QUE ACONTECEU
           </CTAButton>
         </motion.div>
 
