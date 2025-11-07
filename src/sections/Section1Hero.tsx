@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { CTAButton } from '../components/CTAButton';
 import ShaderBackground from '../components/ui/shader-background';
 
+// WebGL Animated Background - v1.0
 const Section1Hero = () => {
   const scrollToNextSection = () => {
     window.scrollTo({
