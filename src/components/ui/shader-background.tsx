@@ -156,20 +156,14 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
   };
 
   useEffect(() => {
-    console.log('🎨 ShaderBackground: Inicializando...');
     const canvas = canvasRef.current;
-    if (!canvas) {
-      console.error('🎨 ShaderBackground: Canvas não encontrado!');
-      return;
-    }
+    if (!canvas) return;
 
     const gl = canvas.getContext('webgl');
     if (!gl) {
-      console.error('🎨 ShaderBackground: WebGL não suportado!');
+      console.warn('WebGL not supported');
       return;
     }
-
-    console.log('✅ ShaderBackground: WebGL inicializado com sucesso!');
 
     const shaderProgram = initShaderProgram(gl, vsSource, fsSource);
     if (!shaderProgram) return;
@@ -257,7 +251,7 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       className={`${position} inset-0 w-full h-full`}
       style={{
         zIndex: 0,
-        backgroundColor: 'rgba(255, 0, 0, 0.3)' // DEBUG: fundo vermelho temporário - mais visível
+        opacity: 0.4  // Opacidade reduzida para não atrapalhar leitura
       }}
     />
   );
