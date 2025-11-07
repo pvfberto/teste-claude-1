@@ -251,7 +251,7 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       className={`${position} inset-0 w-full h-full`}
       style={{
         zIndex: 0,
-        opacity: 0.4  // Opacidade reduzida para não atrapalhar leitura
+        opacity: 0.3  // Opacidade mais sutil para melhor legibilidade
       }}
     />
   );
