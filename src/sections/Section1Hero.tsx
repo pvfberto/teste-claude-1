@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { CTAButton } from '../components/CTAButton';
+import ShaderBackground from '../components/ui/shader-background';
 
 const Section1Hero = () => {
   const scrollToNextSection = () => {
@@ -10,7 +11,10 @@ const Section1Hero = () => {
   };
 
   return (
-    <section className="md:min-h-screen flex flex-col items-center justify-start md:justify-center bg-black px-6 md:px-20 pt-20 pb-16 md:py-20 relative grain-effect-light">
+    <section className="md:min-h-screen flex flex-col items-center justify-start md:justify-center bg-black px-6 md:px-20 pt-20 pb-16 md:py-20 relative grain-effect-light overflow-hidden">
+      {/* Background Animado */}
+      <ShaderBackground position="absolute" />
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
