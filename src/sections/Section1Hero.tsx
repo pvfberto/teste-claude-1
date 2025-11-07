@@ -12,9 +12,11 @@ const Section1Hero = () => {
   };
 
   return (
-    <section className="md:min-h-screen flex flex-col items-center justify-start md:justify-center bg-black px-6 md:px-20 pt-20 pb-16 md:py-20 relative grain-effect-light overflow-hidden">
-      {/* Background Animado */}
-      <ShaderBackground position="absolute" />
+    <section className="md:min-h-screen flex flex-col items-center justify-start md:justify-center px-6 md:px-20 pt-20 pb-16 md:py-20 relative overflow-hidden" style={{ backgroundColor: 'transparent' }}>
+      {/* Background Animado - WebGL Canvas */}
+      <div className="absolute inset-0 bg-black grain-effect-light" style={{ zIndex: 0 }}>
+        <ShaderBackground position="absolute" />
+      </div>
 
       <motion.div
         initial={{ opacity: 0 }}

@@ -256,7 +256,7 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       ref={canvasRef}
       className={`${position} top-0 left-0 w-full h-full`}
       style={{
-        zIndex: -1,
+        zIndex: 1,
         backgroundColor: 'rgba(255, 0, 0, 0.2)' // DEBUG: fundo vermelho temporário
       }}
     />
