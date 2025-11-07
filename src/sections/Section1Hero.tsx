@@ -20,7 +20,7 @@ const Section1Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="max-w-content mx-auto flex flex-col items-center text-center"
+        className="max-w-content mx-auto flex flex-col items-center text-center relative z-10"
       >
         {/* Headline principal */}
         <motion.h1
