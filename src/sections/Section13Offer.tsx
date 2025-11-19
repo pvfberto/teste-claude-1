@@ -78,7 +78,7 @@ const Section13Offer = () => {
           viewport={{ once: true }}
           className="flex flex-col items-center"
         >
-          <CTAButton large onClick={() => window.location.href = 'https://checkout.pauloberto.com.br/08288466'}>
+          <CTAButton large onClick={() => window.location.href = 'https://payfast.greenn.com.br/146308/offer/ZFDBoM'}>
             🚀 QUERO DOMINAR O MÉTODO EM-SA® AGORA
           </CTAButton>
           <p className="text-base italic text-[rgba(243,239,224,0.7)] mt-4">
