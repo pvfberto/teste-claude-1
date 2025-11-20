@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 interface ShaderBackgroundProps {
   /**
@@ -10,6 +10,7 @@ interface ShaderBackgroundProps {
 
 const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [isReady, setIsReady] = useState(false);
 
   // Vertex shader source code
   const vsSource = `
@@ -155,7 +156,18 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
     return shaderProgram;
   };
 
+  // Delay WebGL initialization to improve Speed Index
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsReady(true);
+    }, 1500); // Start WebGL after 1.5s to prioritize content rendering
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    if (!isReady) return; // Don't start WebGL until ready
+
     const canvas = canvasRef.current;
     if (!canvas) return;
 
@@ -210,8 +222,18 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
 
     let startTime = Date.now();
     let animationId: number;
+    let lastFrameTime = 0;
+    const targetFPS = 30;
+    const frameDelay = 1000 / targetFPS;
 
-    const render = () => {
+    const render = (currentFrameTime: number) => {
+      animationId = requestAnimationFrame(render);
+
+      // Limita renderização a 30 FPS para economizar recursos
+      const elapsed = currentFrameTime - lastFrameTime;
+      if (elapsed < frameDelay) return;
+
+      lastFrameTime = currentFrameTime - (elapsed % frameDelay);
       const currentTime = (Date.now() - startTime) / 1000;
 
       gl.clearColor(0.0, 0.0, 0.0, 1.0);
@@ -234,7 +256,6 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       gl.enableVertexAttribArray(programInfo.attribLocations.vertexPosition);
 
       gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-      animationId = requestAnimationFrame(render);
     };
 
     animationId = requestAnimationFrame(render);
@@ -243,7 +264,7 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       window.removeEventListener('resize', resizeCanvas);
       cancelAnimationFrame(animationId);
     };
-  }, []);
+  }, [isReady]);
 
   return (
     <canvas

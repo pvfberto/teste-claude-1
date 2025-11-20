@@ -85,6 +85,8 @@ O SA é o que transforma "interesse" em "ação".`
             alt="Framework EM-SA - Estímulo, Mensagem, Sentimento que Acelera"
             className="w-full rounded-lg"
             loading="lazy"
+            width="1200"
+            height="700"
           />
         </motion.div>
 
