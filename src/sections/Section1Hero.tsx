@@ -29,9 +29,8 @@ const Section1Hero = () => {
           transition={{ delay: 0.1, duration: 0.5 }}
           className="text-4xl md:text-5xl lg:text-6xl font-black tracking-wider-xl leading-tight mb-6"
         >
-          Seus Anúncios estavam funcionando meses atrás...
-          <br />
-          <span className="text-[#ED2100]">E de repente pararam de funcionar?</span>
+          Seus anúncios pararam de funcionar?{' '}
+          <span className="text-[#ED2100]">O problema não é o tráfego, é o que o seu cliente está vendo.</span>
         </motion.h1>
 
         {/* Subheadline */}
@@ -41,8 +40,8 @@ const Section1Hero = () => {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="text-lg md:text-2xl font-light text-[#F3EFE0] max-w-4xl leading-relaxed mb-8"
         >
-          E agora você passa os dias testando criativos, mudando públicos,
-          ajustando orçamentos... mas nada parece dar resultado como antes.
+          O algoritmo mudou e os criativos amadores de 6 meses atrás agora são ignorados.
+          Descubra como produzir os únicos anúncios que o algoritmo prioriza e escala em 2025/2026.
         </motion.p>
 
         {/* Imagem Hero */}
