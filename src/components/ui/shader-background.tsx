@@ -210,8 +210,18 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
 
     let startTime = Date.now();
     let animationId: number;
+    let lastFrameTime = 0;
+    const targetFPS = 30;
+    const frameDelay = 1000 / targetFPS;
 
-    const render = () => {
+    const render = (currentFrameTime: number) => {
+      animationId = requestAnimationFrame(render);
+
+      // Limita renderização a 30 FPS para economizar recursos
+      const elapsed = currentFrameTime - lastFrameTime;
+      if (elapsed < frameDelay) return;
+
+      lastFrameTime = currentFrameTime - (elapsed % frameDelay);
       const currentTime = (Date.now() - startTime) / 1000;
 
       gl.clearColor(0.0, 0.0, 0.0, 1.0);
@@ -234,7 +244,6 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       gl.enableVertexAttribArray(programInfo.attribLocations.vertexPosition);
 
       gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-      animationId = requestAnimationFrame(render);
     };
 
     animationId = requestAnimationFrame(render);

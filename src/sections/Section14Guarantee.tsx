@@ -18,6 +18,8 @@ const Section14Guarantee = () => {
             alt="Selo de Garantia Incondicional 15 Dias"
             className="w-full h-full rounded-lg object-contain"
             loading="lazy"
+            width="200"
+            height="200"
           />
         </motion.div>
 

@@ -105,6 +105,8 @@ const Section4Andromeda = () => {
               alt="Como o Andromeda mudou as regras dos anúncios na Meta"
               className="w-full rounded-lg"
               loading="lazy"
+              width="1000"
+              height="600"
             />
           </picture>
         </motion.div>

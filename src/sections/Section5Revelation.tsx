@@ -39,6 +39,8 @@ const Section5Revelation = () => {
             alt="Paulo Berto - Especialista em Tráfego Pago"
             className="w-full h-full rounded-xl object-cover"
             loading="lazy"
+            width="400"
+            height="400"
           />
         </motion.div>
 
