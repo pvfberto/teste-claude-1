@@ -65,7 +65,7 @@ const Section13Offer = () => {
           </p>
 
           {/* Contador */}
-          <div className="backdrop-blur-md bg-[#8B0000]/10 border-2 border-[#8B0000]/40 rounded-xl p-4 md:p-6 lg:p-10 shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(139,0,0,0.15)]">
+          <div className="backdrop-blur-md bg-[#00C853]/10 border-2 border-[#00C853]/40 rounded-xl p-4 md:p-6 lg:p-10 shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,200,83,0.15)]">
             <p className="text-xl md:text-2xl font-bold mb-4 md:mb-6">⏰ ESSA OFERTA TERMINA EM:</p>
             <CountdownTimer targetDate={targetDate} />
           </div>
