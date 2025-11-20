@@ -48,8 +48,8 @@ const Section1Hero = () => {
           </CTAButton>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="mt-8 md:absolute md:bottom-10 cursor-pointer" onClick={scrollToNextSection}>
+        {/* Scroll indicator - visível apenas no mobile */}
+        <div className="mt-8 md:hidden cursor-pointer" onClick={scrollToNextSection}>
           <div className="text-[#FF5C00] text-4xl animate-bounce">
             ↓
           </div>
