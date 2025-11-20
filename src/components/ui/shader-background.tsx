@@ -34,7 +34,7 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
     const float minorLineFrequency = 1.0;
     const vec4 gridColor = vec4(0.5);
     const float scale = 5.0;
-    const vec4 lineColor = vec4(0.72, 0.53, 0.04, 1.0); // Dourado #B8860B
+    const vec4 lineColor = vec4(1.0, 0.36, 0.0, 1.0); // Laranja #FF5C00
     const float minLineWidth = 0.01;
     const float maxLineWidth = 0.2;
     const float lineSpeed = 1.0 * overallSpeed;
@@ -85,9 +85,9 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       space.x += random(space.y * warpFrequency + iTime * warpSpeed + 2.0) * warpAmplitude * horizontalFade;
 
       vec4 lines = vec4(0.0);
-      // Cores personalizadas: preto e tons dourados
+      // Cores personalizadas: preto e tons laranja
       vec4 bgColor1 = vec4(0.0, 0.0, 0.0, 1.0); // Preto puro
-      vec4 bgColor2 = vec4(0.1, 0.07, 0.02, 1.0); // Tom dourado muito escuro
+      vec4 bgColor2 = vec4(0.15, 0.05, 0.0, 1.0); // Tom laranja muito escuro
 
       for(int l = 0; l < linesPerGroup; l++) {
         float normalizedLineIndex = float(l) / float(linesPerGroup);

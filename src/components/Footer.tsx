@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-black px-6 md:px-20 py-16">
       <div className="max-w-content mx-auto text-center">
         {/* Logo */}
-        <div className="text-[#B8860B] font-black text-2xl tracking-wider-xl mb-8">
+        <div className="text-[#FF5C00] font-black text-2xl tracking-wider-xl mb-8">
           TOTAL ADS 360º
         </div>
 
@@ -18,7 +18,7 @@ const Footer = () => {
             href="https://politicas.pauloberto.com.br/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[#B8860B] transition-colors"
+            className="hover:text-[#FF5C00] transition-colors"
           >
             Termos de Uso e Política de Privacidade
           </a>

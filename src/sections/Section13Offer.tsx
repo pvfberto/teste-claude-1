@@ -18,7 +18,7 @@ const Section13Offer = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-10 md:mb-16"
         >
-          <p className="text-4xl font-black text-[#B8860B] mb-10">
+          <p className="text-4xl font-black text-[#FF5C00] mb-10">
             💰 INVESTIMENTO:
           </p>
           <div className="text-xl text-[#F3EFE0] max-w-3xl mx-auto leading-relaxed space-y-4">
@@ -38,7 +38,7 @@ const Section13Offer = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-black text-[#B8860B] text-center mb-10 md:mb-16 animate-pulse-subtle"
+          className="text-4xl md:text-5xl font-black text-[#FF5C00] text-center mb-10 md:mb-16 animate-pulse-subtle"
         >
           🔥 Oferta Especial Black Friday
         </motion.h2>
@@ -49,7 +49,7 @@ const Section13Offer = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-8 md:p-12 lg:p-16 max-w-2xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)] mb-10 md:mb-16"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#FF5C00]/15 to-[#FF5C00]/5 border-4 border-[#FF5C00]/40 rounded-2xl p-8 md:p-12 lg:p-16 max-w-2xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)] mb-10 md:mb-16"
         >
           {/* Preço riscado */}
           <p className="text-3xl text-[rgba(243,239,224,0.5)] line-through mb-8 font-bold">
@@ -60,7 +60,7 @@ const Section13Offer = () => {
           <p className="text-4xl font-semibold mb-4">12x de R$36,19</p>
 
           {/* Preço à vista */}
-          <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-10 animate-pulse-subtle">
+          <p className="text-5xl md:text-6xl font-black text-[#FF5C00] mb-10 animate-pulse-subtle">
             ou R$352,00 à vista
           </p>
 

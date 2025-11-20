@@ -90,9 +90,9 @@ const Section7Testimonials = () => {
           >
             {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-[#191919] border-t-4 border-[#B8860B] rounded-lg p-6 md:p-10 h-full flex flex-col shadow-[0_4px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-transform duration-300">
+                <div className="bg-[#191919] border-t-4 border-[#FF5C00] rounded-lg p-6 md:p-10 h-full flex flex-col shadow-[0_4px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-transform duration-300">
                   {/* Estrelas */}
-                  <div className="text-3xl text-[#B8860B] mb-6">
+                  <div className="text-3xl text-[#FF5C00] mb-6">
                     {'⭐'.repeat(testimonial.stars)}
                   </div>
 
@@ -105,7 +105,7 @@ const Section7Testimonials = () => {
                   <img
                     src={testimonial.image}
                     alt={`Foto de ${testimonial.name}`}
-                    className="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-[#B8860B] object-cover"
+                    className="w-20 h-20 rounded-full mx-auto mb-4 border-2 border-[#FF5C00] object-cover"
                     loading="lazy"
                   />
 
@@ -128,7 +128,7 @@ const Section7Testimonials = () => {
       <style>{`
         .swiper-button-prev,
         .swiper-button-next {
-          color: #B8860B;
+          color: #FF5C00;
         }
         .swiper-button-prev:hover,
         .swiper-button-next:hover {
@@ -138,7 +138,7 @@ const Section7Testimonials = () => {
           background: rgba(184, 134, 11, 0.3);
         }
         .swiper-pagination-bullet-active {
-          background: #B8860B;
+          background: #FF5C00;
         }
       `}</style>
     </section>

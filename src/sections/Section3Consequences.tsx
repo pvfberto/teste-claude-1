@@ -51,7 +51,7 @@ const Section3Consequences = () => {
         >
           O Que Acontece Se Você Continuar
           <br />
-          <span className="text-[#B8860B]">Fazendo Do Jeito Que Está Fazendo?</span>
+          <span className="text-[#FF5C00]">Fazendo Do Jeito Que Está Fazendo?</span>
         </motion.h2>
 
         {/* Introdução */}
@@ -95,12 +95,12 @@ const Section3Consequences = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-[#B8860B]/10 border-2 border-[#B8860B]/30 rounded-lg p-8 md:p-12 lg:p-16 max-w-3xl mx-auto text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.15)]"
+          className="backdrop-blur-lg bg-[#FF5C00]/10 border-2 border-[#FF5C00]/30 rounded-lg p-8 md:p-12 lg:p-16 max-w-3xl mx-auto text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.15)]"
         >
           <p className="text-2xl md:text-3xl font-bold mb-6">
             Mas Aqui Está A Verdade Que Ninguém Está Te Contando:
           </p>
-          <p className="text-3xl md:text-4xl font-black text-[#B8860B]">
+          <p className="text-3xl md:text-4xl font-black text-[#FF5C00]">
             👉 A culpa não é sua.
           </p>
         </motion.div>

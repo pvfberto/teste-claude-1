@@ -59,9 +59,9 @@ const Section9Differentials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className={`backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-6 md:p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:border-[#B8860B]/40 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_8px_40px_rgba(184,134,11,0.2)] transition-all duration-400 ${index === 2 ? 'md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto' : ''}`}
+              className={`backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-6 md:p-10 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:border-[#FF5C00]/40 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_8px_40px_rgba(184,134,11,0.2)] transition-all duration-400 ${index === 2 ? 'md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto' : ''}`}
             >
-              <div className="text-6xl mb-6 text-[#B8860B]">✅</div>
+              <div className="text-6xl mb-6 text-[#FF5C00]">✅</div>
               <h3 className="text-2xl font-bold mb-4">{diff.title}</h3>
               <p className="text-lg leading-relaxed text-[#F3EFE0]">
                 {diff.description}
@@ -75,7 +75,7 @@ const Section9Differentials = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl font-bold text-[#B8860B] text-center max-w-3xl mx-auto leading-tight"
+          className="text-3xl font-bold text-[#FF5C00] text-center max-w-3xl mx-auto leading-tight"
         >
           Você não fica perdido.
           <br />

@@ -21,7 +21,7 @@ const Section4Andromeda = () => {
         >
           A Meta Mudou As Regras Do Jogo...
           <br />
-          <span className="text-[#B8860B]">E Você Não Foi Avisado.</span>
+          <span className="text-[#FF5C00]">E Você Não Foi Avisado.</span>
         </motion.h2>
 
         {/* Parágrafos introdutórios */}
@@ -47,9 +47,9 @@ const Section4Andromeda = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/40 rounded-xl p-8 md:p-12 lg:p-16 max-w-4xl mx-auto mb-10 md:mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#FF5C00]/15 to-[#FF5C00]/5 border-2 border-[#FF5C00]/40 rounded-xl p-8 md:p-12 lg:p-16 max-w-4xl mx-auto mb-10 md:mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
-          <p className="text-3xl md:text-4xl font-black text-[#B8860B] mb-6">
+          <p className="text-3xl md:text-4xl font-black text-[#FF5C00] mb-6">
             🤖 Em Novembro De 2024, A Meta Lançou O Andromeda.
           </p>
           <p className="text-2xl md:text-3xl font-bold mb-10">
@@ -76,7 +76,7 @@ const Section4Andromeda = () => {
                 transition={{ delay: index * 0.1, duration: 0.5 }}
                 className="flex items-center gap-4"
               >
-                <span className="text-2xl text-[#B8860B]">✓</span>
+                <span className="text-2xl text-[#FF5C00]">✓</span>
                 <span className="text-xl font-semibold">{feature}</span>
               </motion.div>
             ))}
@@ -131,7 +131,7 @@ const Section4Andromeda = () => {
           transition={{ duration: 0.8 }}
           className="text-center max-w-3xl mx-auto mb-10 md:mb-16"
         >
-          <p className="text-5xl md:text-6xl font-black text-[#B8860B] mb-8">
+          <p className="text-5xl md:text-6xl font-black text-[#FF5C00] mb-8">
             👉 Dos Seus Anúncios.
           </p>
           <div className="space-y-3 text-2xl text-[#F3EFE0]">
@@ -161,7 +161,7 @@ const Section4Andromeda = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-3xl font-bold text-[#B8860B] max-w-2xl mx-auto leading-relaxed"
+          className="text-center text-3xl font-bold text-[#FF5C00] max-w-2xl mx-auto leading-relaxed"
         >
           <p>Mas tem uma boa notícia:</p>
           <p className="mt-4">Eu descobri o código.</p>

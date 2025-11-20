@@ -23,7 +23,7 @@ const Section8Product = () => {
         >
           Como Você Aprende A Aplicar
           <br />
-          <span className="text-[#B8860B]">O Método Dos Anúncios Inteligentes?</span>
+          <span className="text-[#FF5C00]">O Método Dos Anúncios Inteligentes?</span>
         </motion.h2>
 
         {/* Introdução */}
@@ -63,7 +63,7 @@ const Section8Product = () => {
                 transition={{ delay: index * 0.1, duration: 0.5 }}
                 className="flex items-start gap-4"
               >
-                <span className="text-2xl text-[#B8860B] flex-shrink-0">•</span>
+                <span className="text-2xl text-[#FF5C00] flex-shrink-0">•</span>
                 <span className="text-lg leading-relaxed">{req}</span>
               </motion.div>
             ))}
@@ -75,7 +75,7 @@ const Section8Product = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center text-2xl font-bold text-[#B8860B] mb-10 md:mb-16"
+          className="text-center text-2xl font-bold text-[#FF5C00] mb-10 md:mb-16"
         >
           E é exatamente isso que eu ensino no Total Ads 360º.
         </motion.p>
@@ -86,9 +86,9 @@ const Section8Product = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-4 border-[#B8860B]/40 rounded-2xl p-8 md:p-12 lg:p-16 max-w-5xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)]"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#FF5C00]/15 to-[#FF5C00]/5 border-4 border-[#FF5C00]/40 rounded-2xl p-8 md:p-12 lg:p-16 max-w-5xl mx-auto text-center shadow-[inset_-4px_-4px_12px_rgba(255,255,255,0.1),inset_4px_4px_12px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.25)]"
         >
-          <h3 className="text-5xl md:text-7xl font-black text-[#B8860B] tracking-wider-2xl mb-8">
+          <h3 className="text-5xl md:text-7xl font-black text-[#FF5C00] tracking-wider-2xl mb-8">
             Total Ads 360º
           </h3>
 

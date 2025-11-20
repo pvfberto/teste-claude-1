@@ -80,7 +80,7 @@ const Section1Hero = () => {
           className="mt-8 md:absolute md:bottom-10 cursor-pointer"
           onClick={scrollToNextSection}
         >
-          <div className="text-[#B8860B] text-4xl animate-bounce">
+          <div className="text-[#FF5C00] text-4xl animate-bounce">
             ↓
           </div>
         </motion.div>

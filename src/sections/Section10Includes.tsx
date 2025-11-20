@@ -53,7 +53,7 @@ const Section10Includes = () => {
               transition={{ delay: index * 0.1, duration: 0.6 }}
               className="flex items-start gap-6"
             >
-              <div className="text-4xl text-[#B8860B] flex-shrink-0">✅</div>
+              <div className="text-4xl text-[#FF5C00] flex-shrink-0">✅</div>
               <div>
                 <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
                 <p className="text-lg leading-relaxed text-[#F3EFE0]">

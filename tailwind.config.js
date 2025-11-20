@@ -10,9 +10,9 @@ export default {
         primary: {
           dark: '#111111',
           secondary: '#191919',
-          gold: {
-            from: '#B8860B',
-            to: '#F0E68C',
+          orange: {
+            from: '#FF5C00',
+            to: '#FFA500',
           },
         },
         text: {

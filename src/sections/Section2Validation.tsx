@@ -41,7 +41,7 @@ const Section2Validation = () => {
         >
           Se você está lendo isso, é porque algo mudou.
           <br />
-          <span className="text-[#B8860B]">Talvez você tenha notado que:</span>
+          <span className="text-[#FF5C00]">Talvez você tenha notado que:</span>
         </motion.h2>
 
         {/* Lista de dores */}
@@ -56,7 +56,7 @@ const Section2Validation = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="flex items-start gap-4 backdrop-blur-md bg-white/5 p-6 rounded border-l-4 border-[#B8860B] shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_4px_16px_rgba(0,0,0,0.2)] hover:bg-white/10 transition-all duration-300"
+              className="flex items-start gap-4 backdrop-blur-md bg-white/5 p-6 rounded border-l-4 border-[#FF5C00] shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_4px_16px_rgba(0,0,0,0.2)] hover:bg-white/10 transition-all duration-300"
             >
               <span className="text-3xl opacity-60 flex-shrink-0">
                 {index % 2 === 0 ? '❌' : '⚠️'}
@@ -76,7 +76,7 @@ const Section2Validation = () => {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-center"
         >
-          <p className="text-xl font-semibold text-[#B8860B] cursor-pointer hover:scale-105 transition-transform inline-block">
+          <p className="text-xl font-semibold text-[#FF5C00] cursor-pointer hover:scale-105 transition-transform inline-block">
             Se você se identificou com 3+ pontos, continue lendo →
           </p>
         </motion.div>

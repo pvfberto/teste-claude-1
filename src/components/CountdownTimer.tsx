@@ -9,8 +9,8 @@ export const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) =>
 
   const TimeBox = ({ value, label }: { value: number; label: string }) => (
     <div className="flex flex-col items-center">
-      <div className="bg-black border-2 border-[#B8860B] rounded-lg p-2 md:p-5 min-w-[60px] md:min-w-[80px] text-center">
-        <span className="text-2xl md:text-5xl font-black text-[#B8860B]">
+      <div className="bg-black border-2 border-[#FF5C00] rounded-lg p-2 md:p-5 min-w-[60px] md:min-w-[80px] text-center">
+        <span className="text-2xl md:text-5xl font-black text-[#FF5C00]">
           {String(value).padStart(2, '0')}
         </span>
       </div>

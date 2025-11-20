@@ -32,7 +32,7 @@ const Section11Results = () => {
         >
           RESULTADOS REAIS
           <br />
-          <span className="text-[#B8860B]">(SEM PROMESSAS MALUCAS)</span>
+          <span className="text-[#FF5C00]">(SEM PROMESSAS MALUCAS)</span>
         </motion.h2>
 
         {/* Introdução */}
@@ -62,7 +62,7 @@ const Section11Results = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl font-bold text-[#B8860B] text-center mb-10"
+          className="text-3xl font-bold text-[#FF5C00] text-center mb-10"
         >
           Isso significa:
         </motion.p>
@@ -76,16 +76,16 @@ const Section11Results = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className="backdrop-blur-lg bg-white/5 border-l-4 border-[#B8860B] rounded-lg p-6 md:p-8 space-y-4 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)]"
+              className="backdrop-blur-lg bg-white/5 border-l-4 border-[#FF5C00] rounded-lg p-6 md:p-8 space-y-4 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)]"
             >
               <p className="text-lg text-[#F3EFE0] leading-relaxed">
                 {example.scenario}
               </p>
-              <p className="text-xl text-[#B8860B] flex items-start gap-2">
+              <p className="text-xl text-[#FF5C00] flex items-start gap-2">
                 <span>→</span>
                 <span>{example.result}</span>
               </p>
-              <p className="text-2xl font-black text-[#B8860B] pt-2">
+              <p className="text-2xl font-black text-[#FF5C00] pt-2">
                 = {example.impact}
               </p>
             </motion.div>

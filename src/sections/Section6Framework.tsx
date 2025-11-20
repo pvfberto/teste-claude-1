@@ -65,7 +65,7 @@ O SA é o que transforma "interesse" em "ação".`
           viewport={{ once: true }}
           className="text-center mb-10 md:mb-16"
         >
-          <div className="text-3xl font-bold text-[#B8860B] space-y-4">
+          <div className="text-3xl font-bold text-[#FF5C00] space-y-4">
             <p>E = Estímulo</p>
             <p>M = Mensagem</p>
             <p>SA = Sentimento que Acelera a Ação</p>
@@ -100,7 +100,7 @@ O SA é o que transforma "interesse" em "ação".`
               className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-xl p-6 md:p-8 shadow-[inset_-2px_-2px_8px_rgba(255,255,255,0.1),inset_2px_2px_8px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.3)] hover:-translate-y-2 hover:shadow-[inset_-2px_-2px_10px_rgba(255,255,255,0.15),inset_2px_2px_10px_rgba(0,0,0,0.25),0_12px_40px_rgba(184,134,11,0.25)] transition-all duration-500"
             >
               <div className="text-6xl mb-6">{pillar.icon}</div>
-              <h3 className="text-3xl font-black text-[#B8860B] mb-4">
+              <h3 className="text-3xl font-black text-[#FF5C00] mb-4">
                 {pillar.title}
               </h3>
               <p className="text-xl font-semibold mb-6">{pillar.subtitle}</p>
@@ -116,7 +116,7 @@ O SA é o que transforma "interesse" em "ação".`
                   <ul className="space-y-2">
                     {pillar.list.map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <span className="text-[#B8860B] mt-1">•</span>
+                        <span className="text-[#FF5C00] mt-1">•</span>
                         <span>{item}</span>
                       </li>
                     ))}
@@ -128,7 +128,7 @@ O SA é o que transforma "interesse" em "ação".`
               )}
 
               {pillar.example && (
-                <div className="backdrop-blur-md bg-black/20 border-l-4 border-[#B8860B] rounded p-6 mt-6 italic text-base text-[rgba(243,239,224,0.9)] shadow-[inset_1px_1px_4px_rgba(0,0,0,0.3)]">
+                <div className="backdrop-blur-md bg-black/20 border-l-4 border-[#FF5C00] rounded p-6 mt-6 italic text-base text-[rgba(243,239,224,0.9)] shadow-[inset_1px_1px_4px_rgba(0,0,0,0.3)]">
                   {pillar.example}
                 </div>
               )}
@@ -142,12 +142,12 @@ O SA é o que transforma "interesse" em "ação".`
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-lg bg-gradient-to-br from-[#B8860B]/15 to-[#B8860B]/5 border-2 border-[#B8860B]/30 rounded-xl p-10 md:p-16 max-w-4xl mx-auto mt-10 md:mt-16 text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
+          className="backdrop-blur-lg bg-gradient-to-br from-[#FF5C00]/15 to-[#FF5C00]/5 border-2 border-[#FF5C00]/30 rounded-xl p-10 md:p-16 max-w-4xl mx-auto mt-10 md:mt-16 text-center shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-2xl font-semibold text-[#F3EFE0] mb-4">
             Quando você combina os 3 pilares...
           </p>
-          <p className="text-4xl font-black text-[#B8860B]">
+          <p className="text-4xl font-black text-[#FF5C00]">
             Você cria anúncios que o Andromeda AMA distribuir.
           </p>
         </motion.div>

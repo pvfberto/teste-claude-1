@@ -21,7 +21,7 @@ const Section5Revelation = () => {
         >
           Depois De 10 Anos Gerenciando R$45 Milhões Em Tráfego...
           <br />
-          <span className="text-[#B8860B]">
+          <span className="text-[#FF5C00]">
             Eu Descobri O Método Dos Anúncios Inteligentes.
           </span>
         </motion.h2>
@@ -53,10 +53,10 @@ const Section5Revelation = () => {
           {badges.map((badge, index) => (
             <div
               key={index}
-              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-lg p-8 text-center shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.3)] hover:border-[#B8860B]/40 transition-all duration-300"
+              className="backdrop-blur-lg bg-white/5 border border-white/20 rounded-lg p-8 text-center shadow-[inset_-2px_-2px_6px_rgba(255,255,255,0.1),inset_2px_2px_6px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.3)] hover:border-[#FF5C00]/40 transition-all duration-300"
             >
               <div className="text-5xl mb-4">{badge.emoji}</div>
-              <div className="text-3xl font-black text-[#B8860B] mb-2">
+              <div className="text-3xl font-black text-[#FF5C00] mb-2">
                 {badge.number}
               </div>
               <div className="text-base text-[#F3EFE0]">{badge.label}</div>
@@ -89,7 +89,7 @@ const Section5Revelation = () => {
             E durante todo esse tempo, eu me fiz uma pergunta que parecia absurda:
           </p>
 
-          <p className="italic text-[#B8860B] font-semibold text-2xl text-center py-6">
+          <p className="italic text-[#FF5C00] font-semibold text-2xl text-center py-6">
             "Será que existe uma forma de criar anúncios que conversem
             com TODAS as pessoas?"
           </p>
@@ -111,7 +111,7 @@ const Section5Revelation = () => {
             psicologia das redes sociais, e observando MILHÕES de impressões...
           </p>
 
-          <p className="font-bold text-2xl text-center text-[#B8860B]">
+          <p className="font-bold text-2xl text-center text-[#FF5C00]">
             Eu cheguei em uma resposta.
           </p>
         </motion.div>
@@ -122,17 +122,17 @@ const Section5Revelation = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="backdrop-blur-md bg-[#B8860B]/10 border-l-4 border-[#B8860B] rounded p-6 md:p-10 max-w-3xl mx-auto my-10 md:my-16 shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.2)]"
+          className="backdrop-blur-md bg-[#FF5C00]/10 border-l-4 border-[#FF5C00] rounded p-6 md:p-10 max-w-3xl mx-auto my-10 md:my-16 shadow-[inset_1px_1px_4px_rgba(0,0,0,0.2),0_6px_24px_rgba(0,0,0,0.2)]"
         >
           <p className="text-2xl font-semibold leading-relaxed mb-6">
             Não, você não consegue criar UM anúncio que conversa com todo mundo.
           </p>
           <p className="text-2xl font-semibold leading-relaxed">
-            Mas você consegue criar um <span className="text-[#B8860B] font-black">CONJUNTO</span> de anúncios que,
-            trabalhando juntos, conversam com o <span className="text-[#B8860B] font-black">MAIOR NÚMERO DE PESSOAS POSSÍVEL</span>.
+            Mas você consegue criar um <span className="text-[#FF5C00] font-black">CONJUNTO</span> de anúncios que,
+            trabalhando juntos, conversam com o <span className="text-[#FF5C00] font-black">MAIOR NÚMERO DE PESSOAS POSSÍVEL</span>.
           </p>
           <p className="text-xl mt-8">E em 2021, eu estruturei esse método.</p>
-          <p className="text-3xl font-black text-[#B8860B] mt-4">
+          <p className="text-3xl font-black text-[#FF5C00] mt-4">
             Eu chamo ele de Método EM-SA®.
           </p>
         </motion.div>
@@ -154,11 +154,11 @@ const Section5Revelation = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="backdrop-blur-lg bg-white/5 border-2 border-[#B8860B]/40 rounded-lg p-10 md:p-16 max-w-3xl mx-auto text-center mb-10 md:mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
+          className="backdrop-blur-lg bg-white/5 border-2 border-[#FF5C00]/40 rounded-lg p-10 md:p-16 max-w-3xl mx-auto text-center mb-10 md:mb-16 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_10px_40px_rgba(184,134,11,0.2)]"
         >
           <p className="text-4xl font-black">
             👉 <span className="text-[#F3EFE0]">Algoritmos mudam.</span>{' '}
-            <span className="text-[#B8860B]">Pessoas não.</span>
+            <span className="text-[#FF5C00]">Pessoas não.</span>
           </p>
         </motion.div>
 
@@ -174,7 +174,7 @@ const Section5Revelation = () => {
           <p>E sabe o que aconteceu?</p>
           <p>
             O meu método, que já funcionava bem antes,
-            começou a funcionar <span className="text-[#B8860B] font-black text-2xl">AINDA MELHOR</span>.
+            começou a funcionar <span className="text-[#FF5C00] font-black text-2xl">AINDA MELHOR</span>.
           </p>
           <p className="pt-6 font-bold">Por quê?</p>
           <p>
@@ -195,10 +195,10 @@ const Section5Revelation = () => {
           </p>
 
           <div className="pt-12">
-            <p className="text-3xl font-black text-[#B8860B]">
+            <p className="text-3xl font-black text-[#FF5C00]">
               Esse é o Método dos Anúncios Inteligentes.
             </p>
-            <p className="text-3xl font-black text-[#B8860B] mt-2">
+            <p className="text-3xl font-black text-[#FF5C00] mt-2">
               O Método EM-SA®.
             </p>
           </div>
