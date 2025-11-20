@@ -20,11 +20,11 @@ body {
 }
 
 .gradient-gold {
-  background: linear-gradient(135deg, #FF5C00 0%, #FFA500 100%);
+  background: linear-gradient(135deg, #1E90FF 0%, #00C853 100%);
 }
 
 .gradient-gold-animated {
-  background: linear-gradient(135deg, #FF5C00 0%, #FFA500 50%, #FF5C00 100%);
+  background: linear-gradient(135deg, #1E90FF 0%, #8B00FF 50%, #00C853 100%);
   background-size: 200% 100%;
   animation: gradient-shift 3s infinite;
 }
@@ -33,15 +33,15 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #FF5C00, #FFA500);
+  background-image: linear-gradient(to right, #1E90FF, #8B00FF, #00C853);
 }
 
 .glow-gold {
-  box-shadow: 0 0 25px rgba(255, 92, 0, 0.6);
+  box-shadow: 0 0 25px rgba(30, 144, 255, 0.6);
 }
 
 .glow-gold-strong {
-  box-shadow: 0 0 40px rgba(255, 92, 0, 0.5);
+  box-shadow: 0 0 40px rgba(139, 0, 255, 0.5);
 }
 
 @keyframes gradient-shift {
