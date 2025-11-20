@@ -45,10 +45,10 @@ const Section15FinalChoice = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="backdrop-blur-lg bg-gradient-to-br from-[#FF5C00]/15 to-[#FF5C00]/5 border-4 border-[#FF5C00]/40 rounded-xl p-8 md:p-12 relative lg:scale-105 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_12px_50px_rgba(184,134,11,0.3)]"
+            className="backdrop-blur-lg bg-gradient-to-br from-[#00C853]/15 to-[#00C853]/5 border-4 border-[#00C853]/40 rounded-xl p-8 md:p-12 relative lg:scale-105 shadow-[inset_-3px_-3px_10px_rgba(255,255,255,0.1),inset_3px_3px_10px_rgba(0,0,0,0.2),0_12px_50px_rgba(0,200,83,0.3)]"
           >
-            <div className="text-6xl mb-6 text-[#FF5C00]">✅</div>
-            <h3 className="text-2xl font-bold text-[#FF5C00] mb-6">ESCOLHA 2</h3>
+            <div className="text-6xl mb-6 text-[#00C853]">✅</div>
+            <h3 className="text-2xl font-bold text-[#00C853] mb-6">ESCOLHA 2</h3>
             <div className="text-lg leading-relaxed text-[#F3EFE0] space-y-4">
               <p>Aprender o Método EM-SA®.</p>
               <p>Criar anúncios inteligentes que falam com diferentes perfis.</p>
