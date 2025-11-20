@@ -29,8 +29,9 @@ const Section1Hero = () => {
           transition={{ delay: 0.1, duration: 0.5 }}
           className="text-4xl md:text-5xl lg:text-6xl font-black tracking-wider-xl leading-tight mb-6"
         >
-          Seus anúncios pararam de funcionar?{' '}
-          <span className="text-[#ED2100]">O problema não é o tráfego, é o que o seu cliente está vendo.</span>
+          Seus anúncios pararam de funcionar?
+          <br />
+          <span className="text-[#FF5C00]">O problema não é o tráfego, é o que o seu cliente está vendo.</span>
         </motion.h1>
 
         {/* Subheadline */}
