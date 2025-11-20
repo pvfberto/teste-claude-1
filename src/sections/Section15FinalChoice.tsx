@@ -94,7 +94,7 @@ const Section15FinalChoice = () => {
         >
           <div className="text-base italic leading-relaxed text-[rgba(243,239,224,0.9)] space-y-4">
             <p>
-              <strong>P.S.:</strong> Por R$269,99 (menos do que você perde em 2 dias de anúncios ruins),
+              <strong>P.S.:</strong> Por R$352,00 (menos do que você perde em 2 dias de anúncios ruins),
               você tem acesso ao método testado com R$45 milhões.
               Garantia de 15 dias. Zero risco. Clique agora e transforme seus anúncios.
             </p>
