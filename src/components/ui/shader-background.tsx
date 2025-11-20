@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 interface ShaderBackgroundProps {
   /**
@@ -10,6 +10,7 @@ interface ShaderBackgroundProps {
 
 const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [isReady, setIsReady] = useState(false);
 
   // Vertex shader source code
   const vsSource = `
@@ -155,7 +156,18 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
     return shaderProgram;
   };
 
+  // Delay WebGL initialization to improve Speed Index
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsReady(true);
+    }, 1500); // Start WebGL after 1.5s to prioritize content rendering
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    if (!isReady) return; // Don't start WebGL until ready
+
     const canvas = canvasRef.current;
     if (!canvas) return;
 
@@ -252,7 +264,7 @@ const ShaderBackground: React.FC<ShaderBackgroundProps> = ({ position = 'fixed' 
       window.removeEventListener('resize', resizeCanvas);
       cancelAnimationFrame(animationId);
     };
-  }, []);
+  }, [isReady]);
 
   return (
     <canvas
