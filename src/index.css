@@ -24,16 +24,22 @@ body {
 }
 
 .gradient-gold-animated {
-  background: linear-gradient(135deg, #1E90FF 0%, #8B00FF 50%, #00C853 100%);
+  background: linear-gradient(135deg, rgba(30, 144, 255, 0.7) 0%, rgba(0, 200, 83, 0.7) 100%);
   background-size: 200% 100%;
   animation: gradient-shift 3s infinite;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 30px rgba(30, 144, 255, 0.6),
+              0 0 50px rgba(0, 200, 83, 0.4),
+              0 0 70px rgba(30, 144, 255, 0.3),
+              inset 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 
 .text-gradient-gold {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to right, #1E90FF, #8B00FF, #00C853);
+  background-image: linear-gradient(to right, #1E90FF, #00C853);
 }
 
 .glow-gold {
@@ -41,7 +47,7 @@ body {
 }
 
 .glow-gold-strong {
-  box-shadow: 0 0 40px rgba(139, 0, 255, 0.5);
+  box-shadow: 0 0 40px rgba(0, 200, 83, 0.5);
 }
 
 @keyframes gradient-shift {
